@@ -1,0 +1,156 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=23396, tid=0x00000000000063ac
+#
+# JRE version:  (8.0_144-b01) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.144-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000236d800):  JavaThread "Unknown thread" [_thread_in_vm, id=25516, stack(0x0000000002250000,0x0000000002350000)]
+
+Stack: [0x0000000002250000,0x0000000002350000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000236d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=25516, stack(0x0000000002250000,0x0000000002350000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 38400K, used 665K [0x00000000d5e00000, 0x00000000d8880000, 0x0000000100000000)
+  eden space 33280K, 2% used [0x00000000d5e00000,0x00000000d5ea6670,0x00000000d7e80000)
+  from space 5120K, 0% used [0x00000000d8380000,0x00000000d8380000,0x00000000d8880000)
+  to   space 5120K, 0% used [0x00000000d7e80000,0x00000000d7e80000,0x00000000d8380000)
+ ParOldGen       total 87552K, used 0K [0x0000000081a00000, 0x0000000086f80000, 0x00000000d5e00000)
+  object space 87552K, 0% used [0x0000000081a00000,0x0000000081a00000,0x0000000086f80000)
+ Metaspace       used 770K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000011830000,0x0000000011c30000] byte_map_base: 0x0000000011423000
+
+Marking Bits: (ParMarkBitMap*) 0x0000000065f4d850
+ Begin Bits: [0x00000000122e0000, 0x0000000014278000)
+ End Bits:   [0x0000000014278000, 0x0000000016210000)
+
+Polling page: 0x0000000002100000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002470000, 0x00000000026e0000, 0x0000000011470000]
+ total_blobs=58 nmethods=0 adapters=38
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.025 loading class java/lang/Short
+Event: 0.025 loading class java/lang/Short done
+Event: 0.025 loading class java/lang/Integer
+Event: 0.025 loading class java/lang/Integer done
+Event: 0.025 loading class java/lang/Long
+Event: 0.025 loading class java/lang/Long done
+Event: 0.026 loading class java/lang/NullPointerException
+Event: 0.026 loading class java/lang/NullPointerException done
+Event: 0.026 loading class java/lang/ArithmeticException
+Event: 0.026 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff6cf700000 - 0x00007ff6cf737000 	C:\FORMATION\jdk1.8.0_144\jre\bin\java.exe
+0x00007ff8a26d0000 - 0x00007ff8a28ab000 	C:\windows\SYSTEM32\ntdll.dll
+0x00007ff897b30000 - 0x00007ff897b64000 	C:\Program Files\AVAST Software\Avast\x64\aswhooka.dll
+0x00007ff8a1880000 - 0x00007ff8a192e000 	C:\windows\System32\KERNEL32.DLL
+0x00007ff89f6f0000 - 0x00007ff89f939000 	C:\windows\System32\KERNELBASE.dll
+0x00007ff8a2230000 - 0x00007ff8a22d1000 	C:\windows\System32\ADVAPI32.dll
+0x00007ff89fe80000 - 0x00007ff89ff1d000 	C:\windows\System32\msvcrt.dll
+0x00007ff8a1990000 - 0x00007ff8a19e9000 	C:\windows\System32\sechost.dll
+0x00007ff8a1be0000 - 0x00007ff8a1d05000 	C:\windows\System32\RPCRT4.dll
+0x00007ff8a1d10000 - 0x00007ff8a1e5a000 	C:\windows\System32\USER32.dll
+0x00007ff89f940000 - 0x00007ff89f95e000 	C:\windows\System32\win32u.dll
+0x00007ff89ff20000 - 0x00007ff89ff47000 	C:\windows\System32\GDI32.dll
+0x00007ff89f4c0000 - 0x00007ff89f647000 	C:\windows\System32\gdi32full.dll
+0x00007ff89f650000 - 0x00007ff89f6ea000 	C:\windows\System32\msvcp_win.dll
+0x00007ff89fb30000 - 0x00007ff89fc26000 	C:\windows\System32\ucrtbase.dll
+0x00007ff893090000 - 0x00007ff8932f7000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.15063.483_none_26002d27e7c744a2\COMCTL32.dll
+0x00007ff8a2370000 - 0x00007ff8a2669000 	C:\windows\System32\combase.dll
+0x00007ff89f2f0000 - 0x00007ff89f35a000 	C:\windows\System32\bcryptPrimitives.dll
+0x00007ff8a20a0000 - 0x00007ff8a20cd000 	C:\windows\System32\IMM32.DLL
+0x0000000065fd0000 - 0x00000000660a2000 	C:\FORMATION\jdk1.8.0_144\jre\bin\msvcr100.dll
+0x0000000065730000 - 0x0000000065fcd000 	C:\FORMATION\jdk1.8.0_144\jre\bin\server\jvm.dll
+0x00007ff8a20d0000 - 0x00007ff8a20d8000 	C:\windows\System32\PSAPI.DLL
+0x00007ff88d610000 - 0x00007ff88d619000 	C:\windows\SYSTEM32\WSOCK32.dll
+0x00007ff8a1f70000 - 0x00007ff8a1fdc000 	C:\windows\System32\WS2_32.dll
+0x00007ff89cd70000 - 0x00007ff89cd93000 	C:\windows\SYSTEM32\WINMM.dll
+0x00007ff8939a0000 - 0x00007ff8939aa000 	C:\windows\SYSTEM32\VERSION.dll
+0x00007ff89cd10000 - 0x00007ff89cd3b000 	C:\windows\SYSTEM32\WINMMBASE.dll
+0x00007ff89f410000 - 0x00007ff89f459000 	C:\windows\System32\cfgmgr32.dll
+0x0000000065650000 - 0x000000006565f000 	C:\FORMATION\jdk1.8.0_144\jre\bin\verify.dll
+0x0000000065620000 - 0x0000000065649000 	C:\FORMATION\jdk1.8.0_144\jre\bin\java.dll
+0x0000000065600000 - 0x0000000065616000 	C:\FORMATION\jdk1.8.0_144\jre\bin\zip.dll
+
+VM Arguments:
+java_command: C:\Users\Formation\git\libreplan\ganttzk\target\surefire\surefirebooter9141374182938608497.jar C:\Users\Formation\git\libreplan\ganttzk\target\surefire\surefire963121222170959532tmp C:\Users\Formation\git\libreplan\ganttzk\target\surefire\surefire5715252254795051863tmp
+java_class_path (initial): C:\Users\Formation\git\libreplan\ganttzk\target\surefire\surefirebooter9141374182938608497.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\FORMATION\jdk1.8.0_144
+JRE_HOME=C:\Program Files\Java\jre1.8.0_162
+CLASSPATH=.;
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\FORMATION\apache-maven-3.5.0\bin;C:\FORMATION\jdk1.8.0_144\bin;C:\FORMATION\jdk1.7.0_80\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Formation\AppData\Local\Microsoft\WindowsApps;C:\tools\mysql\current\bin;C:\Program Files\Oracle\VirtualBox;C:\Users\Formation\AppData\Roaming\npm;C:\Users\Formation\AppData\Local\Programs\Fiddler
+USERNAME=Formation
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 15063 (10.0.15063.296)
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 142 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8280508k(2604512k free), swap 9329084k(5344k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.144-b01) for windows-amd64 JRE (1.8.0_144-b01), built on Jul 21 2017 21:57:33 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Thu Feb 22 11:04:14 2018
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

@@ -1,0 +1,1572 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 179 ciObject found
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/util/Map containsKey (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/Integer valueOf (I)Ljava/lang/Integer; 105 1 14 0 -1
+ciMethod java/lang/Integer intValue ()I 1097 1 137 0 -1
+ciMethod java/util/ArrayList size ()I 1057 1 132 0 -1
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 1921 1 5847 0 -1
+ciMethod java/lang/Enum ordinal ()I 1105 1 138 0 0
+ciMethod java/io/Reader read ([CII)I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable addSymbol ([CII)Ljava/lang/String; 3561 24129 3121 0 1056
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable addSymbol0 ([CIIII)Ljava/lang/String; 593 1 193 0 0
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable hash ([CII)I 2745 24753 2660 0 320
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable hash0 ([CII)I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable rehash ()V 25 1 3 0 -1
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable rebalance ()V 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/util/SymbolTable$Entry <init> ([CIILcom/sun/org/apache/xerces/internal/util/SymbolTable$Entry;)V 1545 1 193 0 -1
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityManager endEntity ()V 49 1 6 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLSecurityManager getLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;)I 49 1 96 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLSecurityManager getStateLiteral (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;)Ljava/lang/String; 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3249 1 11225 0 512
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3305 1 6115 0 480
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLSecurityManager debugPrint (Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)V 0 0 6 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit key ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner scanQName (Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Z 3641 32769 2354 0 -1
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkBeforeLoad (Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)I 2825 1 6653 0 768
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkEntityLimit (Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2089 1 5381 0 128
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkNodeCount (Lcom/sun/xml/internal/stream/Entity$ScannedEntity;)V 177 1 2415 0 -1
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 545 1 4958 0 0
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner load (IZZ)Z 273 1 147 6 0
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLEntityScanner invokeListeners (I)V 273 241 142 0 0
+ciMethod com/sun/org/apache/xerces/internal/impl/XMLErrorReporter reportError (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;S)Ljava/lang/String; 0 0 1 0 -1
+ciMethod com/sun/xml/internal/stream/XMLBufferListener refresh (I)V 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/xni/QName setValues (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 4097 1 2614 0 0
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Ljava/lang/String;I)V 3545 1 6267 0 0
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (ILjava/lang/String;I)V 3545 1 5563 0 512
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;)I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getValue (I)I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;)I 0 0 1 0 -1
+ciMethod com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 2193 1 5400 0 0
+ciMethod com/sun/org/apache/xerces/internal/util/XMLChar isNameStart (I)Z 2721 1 5292 0 0
+ciMethod com/sun/org/apache/xerces/internal/util/XMLChar isName (I)Z 17 1 317 0 -1
+ciMethodData com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkEntityLimit (Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2 5381 orig 264 88 66 209 101 0 0 0 0 24 59 31 23 0 0 0 0 104 2 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 22 0 2 0 0 0 0 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 32 0x10007 0x0 0x40 0x1400 0x80007 0x0 0x20 0x1400 0x100007 0x0 0x50 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x220007 0x0 0x40 0x0 0x290007 0x0 0x50 0x0 0x2e0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2 4958 orig 264 88 66 209 101 0 0 0 0 192 61 31 23 0 0 0 0 80 7 0 0 104 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 209 152 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 64 0 2 0 0 0 232 5 0 0 255 255 255 255 5 0 11 0 0 0 0 0 data 189 0xb0005 0x23f 0x198e93d0 0x10db 0x0 0x0 0x170005 0x23f 0x198e97a0 0x10db 0x0 0x0 0x1a0007 0x131a 0x398 0x0 0x250005 0x0 0x0 0x0 0x0 0x0 0x2c0007 0x0 0x178 0x0 0x3a0005 0x0 0x0 0x0 0x0 0x0 0x3d0002 0x0 0x400004 0x0 0x0 0x0 0x0 0x0 0x480005 0x0 0x0 0x0 0x0 0x0 0x4b0002 0x0 0x4e0004 0x0 0x0 0x0 0x0 0x0 0x560005 0x0 0x0 0x0 0x0 0x0 0x590004 0x0 0x0 0x0 0x0 0x0 0x5a0003 0x0 0x188 0x670004 0x0 0x0 0x0 0x0 0x0 0x6f0005 0x0 0x0 0x0 0x0 0x0 0x720002 0x0 0x750004 0x0 0x0 0x0 0x0 0x0 0x7d0005 0x0 0x0 0x0 0x0 0x0 0x800002 0x0 0x830004 0x0 0x0 0x0 0x0 0x0 0x8b0005 0x0 0x0 0x0 0x0 0x0 0x8e0004 0x0 0x0 0x0 0x0 0x0 0x980005 0x0 0x0 0x0 0x0 0x0 0x9e0005 0x0 0x0 0x0 0x0 0x0 0xad0005 0x23f 0x198e97a0 0x10db 0x0 0x0 0xb00007 0x131a 0x1c0 0x0 0xbb0005 0x0 0x0 0x0 0x0 0x0 0xd30005 0x0 0x0 0x0 0x0 0x0 0xd60002 0x0 0xd90004 0x0 0x0 0x0 0x0 0x0 0xe30005 0x0 0x0 0x0 0x0 0x0 0xe60002 0x0 0xe90004 0x0 0x0 0x0 0x0 0x0 0xf30005 0x0 0x0 0x0 0x0 0x0 0xf60004 0x0 0x0 0x0 0x0 0x0 0xf80005 0x0 0x0 0x0 0x0 0x0 oops 3 2 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer 8 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager 129 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager
+ciMethodData com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkBeforeLoad (Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)I 2 6653 orig 264 88 66 209 101 0 0 0 0 16 58 31 23 0 0 0 0 112 2 0 0 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 95 1 0 0 225 196 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 16 1 0 0 255 255 255 255 7 0 18 0 0 0 0 0 data 34 0x120007 0x189a 0x110 0x2 0x230007 0x1 0x38 0x1 0x300003 0x1 0x18 0x3d0005 0x0 0x199240d0 0x2 0x0 0x0 0x430005 0x0 0x199240d0 0x2 0x0 0x0 0x4d0007 0x2 0x48 0x0 0x640002 0x0 0x770003 0x0 0x28 0x860002 0x2 oops 2 13 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 19 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+ciMethodData com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 2 5400 orig 264 88 66 209 101 0 0 0 0 200 43 181 26 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18 1 0 0 49 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 2 11225 orig 264 88 66 209 101 0 0 0 0 224 181 29 23 0 0 0 0 184 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 150 1 0 0 25 82 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 12 0x20005 0xe 0x1992b430 0x2a35 0x0 0x0 0x60005 0xe 0x198e97a0 0x2a35 0x0 0x0 oops 2 2 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 8 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager
+ciMethodData com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 2 6115 orig 264 88 66 209 101 0 0 0 0 16 183 29 23 0 0 0 0 40 4 0 0 80 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 157 1 0 0 49 178 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 27 0 2 0 0 0 208 2 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 90 0x60007 0x13a4 0x20 0x2a2 0xf0005 0x47 0x1992b430 0x135d 0x0 0x0 0x120007 0x0 0x1b0 0x13a4 0x190005 0x47 0x1992b430 0x135d 0x0 0x0 0x1c0007 0x0 0x160 0x13a4 0x230005 0x47 0x1992b430 0x135d 0x0 0x0 0x260007 0x9d2 0x110 0x9d2 0x2d0005 0x24 0x1992b430 0x9ae 0x0 0x0 0x300007 0x0 0xc0 0x9d2 0x370005 0x24 0x1992b430 0x9ae 0x0 0x0 0x3a0007 0x0 0x70 0x9d2 0x410005 0x24 0x1992b430 0x9ae 0x0 0x0 0x440007 0x0 0x88 0x9d2 0x490005 0x47 0x198e93d0 0x135d 0x0 0x0 0x520007 0x13a4 0x38 0x0 0x560003 0x0 0x18 0x5d0005 0x0 0x0 0x0 0x0 0x0 0x660007 0x0 0x38 0x0 0x6a0003 0x0 0x18 oops 7 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 16 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 26 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 36 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 46 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 56 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 66 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer
+ciMethodData com/sun/org/apache/xerces/internal/util/XMLChar isNameStart (I)Z 2 5292 orig 264 88 66 209 101 0 0 0 0 40 172 181 26 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 1 0 0 193 154 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 88 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 11 0x30007 0x0 0x58 0x1358 0xd0007 0x224 0x38 0x1134 0x110003 0x1134 0x18 oops 0
+ciMethodData com/sun/org/apache/xerces/internal/util/SymbolTable hash ([CII)I 2 22085 orig 264 88 66 209 101 0 0 0 0 32 140 28 23 0 0 0 0 160 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 12 0 0 105 72 0 0 121 81 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 8 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 13 0x40007 0x0 0x58 0x90d 0x100007 0x90d 0x38 0x4a2f 0x240003 0x4a2f 0xffffffffffffffe0 0x310002 0x0 oops 0
+ciMethodData com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Ljava/lang/String;I)V 2 6267 orig 264 88 66 209 101 0 0 0 0 224 38 181 26 0 0 0 0 192 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 187 1 0 0 1 182 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 96 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 12 0x20005 0x0 0x1992b430 0x16c0 0x0 0x0 0x70005 0x0 0x198e93d0 0x16c0 0x0 0x0 oops 2 2 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 8 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer
+ciMethodData com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (ILjava/lang/String;I)V 2 5563 orig 264 88 66 209 101 0 0 0 0 232 40 181 26 0 0 0 0 160 6 0 0 240 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 187 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 46 0 2 0 0 0 64 5 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 168 0x40005 0x6a 0x1992b430 0x1396 0x0 0x0 0x70007 0x0 0x160 0x1400 0xe0005 0x6a 0x1992b430 0x1396 0x0 0x0 0x110007 0x0 0x110 0x1400 0x180005 0x6a 0x1992b430 0x1396 0x0 0x0 0x1b0007 0x0 0xc0 0x1400 0x220005 0x6a 0x1992b430 0x1396 0x0 0x0 0x250007 0x0 0x70 0x1400 0x2c0005 0x6a 0x1992b430 0x1396 0x0 0x0 0x2f0007 0x1400 0x20 0x0 0x410005 0x6a 0x1992b430 0x1396 0x0 0x0 0x440007 0x434 0x70 0xfcc 0x4b0005 0x55 0x1992b430 0xf77 0x0 0x0 0x4e0007 0x0 0x20 0xfcc 0x660007 0x0 0x78 0x0 0x6f0002 0x0 0x7b0004 0x0 0x0 0x0 0x0 0x0 0x7c0003 0x0 0x18 0x8d0005 0x0 0x0 0x0 0x0 0x0 0x920007 0x0 0x108 0x0 0x9a0005 0x0 0x0 0x0 0x0 0x0 0x9f0004 0x0 0x0 0x0 0x0 0x0 0xa20005 0x0 0x0 0x0 0x0 0x0 0xad0002 0x0 0xb00005 0x0 0x0 0x0 0x0 0x0 0xb60003 0x0 0x58 0xbd0002 0x0 0xc00005 0x0 0x0 0x0 0x0 0x0 0xce0007 0x0 0x50 0x0 0xdf0004 0x0 0x0 0x0 0x0 0x0 0xe40005 0x0 0x0 0x0 0x0 0x0 0xe70007 0x0 0x70 0x0 0xee0005 0x0 0x0 0x0 0x0 0x0 0xf10007 0x0 0x50 0x0 0xfb0005 0x0 0x0 0x0 0x0 0x0 oops 7 2 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 12 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 22 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 32 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 42 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 52 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 62 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+ciMethodData com/sun/org/apache/xerces/internal/util/SymbolTable addSymbol ([CII)Ljava/lang/String; 2 25281 orig 264 88 66 209 101 0 0 0 0 216 135 28 23 0 0 0 0 104 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 11 0 0 161 83 0 0 201 183 2 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 14 0 2 0 0 0 8 1 0 0 255 255 255 255 5 0 7 0 0 0 0 0 data 33 0x70005 0x0 0x19924bd0 0xa74 0x0 0x0 0x1c0007 0x2a 0xc8 0xcee 0x260007 0x287 0x90 0xa67 0x2f0007 0xa4a 0x70 0x5472 0x400007 0x5455 0x38 0x1d 0x460003 0x1d 0x30 0x4c0003 0x5455 0xffffffffffffffa8 0x5f0003 0x2a4 0xffffffffffffff50 0x6a0002 0x2a oops 1 2 com/sun/org/apache/xerces/internal/util/SymbolTable
+ciMethodData com/sun/org/apache/xerces/internal/impl/XMLEntityScanner scanQName (Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Z 2 21048 orig 264 88 66 209 101 0 0 0 0 136 56 31 23 0 0 0 0 216 6 0 0 240 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 89 59 0 0 193 17 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 53 0 2 0 0 0 128 5 0 0 255 255 255 255 7 0 14 0 0 0 0 0 data 176 0xe0007 0x76b 0x50 0x0 0x150005 0x0 0x0 0x0 0x0 0x0 0x2a0002 0x76b 0x2d0007 0x0 0x520 0x76b 0x450007 0x76b 0x130 0x0 0x4a0005 0x0 0x0 0x0 0x0 0x0 0x650005 0x0 0x0 0x0 0x0 0x0 0x680007 0x0 0xb0 0x0 0x850005 0x0 0x0 0x0 0x0 0x0 0x910005 0x0 0x0 0x0 0x0 0x0 0x9c0005 0x0 0x0 0x0 0x0 0x0 0xbc0007 0x0 0x38 0x499d 0xc70003 0x499d 0x28 0xcc0002 0x0 0xd30007 0x4232 0x38 0x76b 0xd60003 0x76b 0x190 0xdd0007 0x3e29 0x88 0x409 0xe30007 0x409 0x38 0x0 0xe60003 0x0 0x138 0xff0005 0x0 0x199240d0 0x409 0x0 0x0 0x10a0005 0x0 0x199240d0 0x4232 0x0 0x0 0x1100007 0x422f 0xa8 0x3 0x1160007 0x2 0x20 0x1 0x1260005 0x0 0x199240d0 0x3 0x0 0x0 0x1290007 0x3 0x38 0x0 0x12c0003 0x0 0x30 0x12f0003 0x4232 0xfffffffffffffe20 0x14d0007 0x0 0x1d8 0x76b 0x1640005 0x0 0x19924bd0 0x76b 0x0 0x0 0x16c0007 0x362 0xf8 0x409 0x1800005 0x0 0x199240d0 0x409 0x0 0x0 0x1910005 0x0 0x19924bd0 0x409 0x0 0x0 0x1ad0005 0x0 0x199240d0 0x409 0x0 0x0 0x1c10005 0x0 0x19924bd0 0x409 0x0 0x0 0x1c60003 0x409 0x48 0x1d80005 0x0 0x199240d0 0x362 0x0 0x0 0x1e30005 0x0 0x19924300 0x76b 0x0 0x0 0x1ef0005 0x0 0x199240d0 0x76b 0x0 0x0 oops 11 83 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 89 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 103 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 123 com/sun/org/apache/xerces/internal/util/SymbolTable 133 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 139 com/sun/org/apache/xerces/internal/util/SymbolTable 145 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 151 com/sun/org/apache/xerces/internal/util/SymbolTable 160 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 166 com/sun/org/apache/xerces/internal/xni/QName 172 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+ciMethodData com/sun/org/apache/xerces/internal/xni/QName setValues (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 2 2616 orig 264 88 66 209 101 0 0 0 0 136 73 33 23 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 193 65 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+instanceKlass org/apache/maven/surefire/common/junit4/JUnit4StackTraceWriter
+instanceKlass org/junit/runner/notification/Failure
+instanceKlass org/springframework/core/NestedExceptionUtils
+instanceKlass java/lang/Throwable$PrintStreamOrWriter
+instanceKlass java/text/DontCareFieldPosition$1
+instanceKlass java/text/Format$FieldDelegate
+instanceKlass java/text/FieldPosition
+instanceKlass org/apache/log4j/spi/ThrowableInformation
+instanceKlass org/springframework/core/OrderComparator
+instanceKlass org/springframework/aop/aspectj/autoproxy/AspectJPrecedenceComparator
+instanceKlass org/springframework/aop/framework/autoproxy/BeanFactoryAdvisorRetrievalHelper
+instanceKlass org/springframework/aop/TargetSource
+instanceKlass org/springframework/aop/TargetClassAware
+instanceKlass org/springframework/aop/framework/ProxyConfig
+instanceKlass org/springframework/aop/framework/AopInfrastructureBean
+instanceKlass org/springframework/core/Ordered
+instanceKlass org/springframework/beans/factory/config/SmartInstantiationAwareBeanPostProcessor
+instanceKlass org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessor
+instanceKlass org/springframework/aop/config/AopConfigUtils
+instanceKlass org/springframework/aop/config/AopNamespaceUtils
+instanceKlass org/springframework/beans/factory/config/BeanDefinitionHolder
+instanceKlass org/springframework/beans/factory/xml/ParserContext
+instanceKlass org/springframework/aop/config/SpringConfiguredBeanDefinitionParser
+instanceKlass org/springframework/aop/config/ScopedProxyBeanDefinitionDecorator
+instanceKlass org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser
+instanceKlass org/springframework/beans/factory/parsing/AbstractComponentDefinition
+instanceKlass org/springframework/aop/config/ConfigBeanDefinitionParser
+instanceKlass org/springframework/beans/factory/xml/BeanDefinitionDecorator
+instanceKlass org/springframework/beans/factory/xml/BeanDefinitionParser
+instanceKlass org/springframework/beans/factory/xml/NamespaceHandlerSupport
+instanceKlass org/springframework/beans/factory/xml/NamespaceHandler
+instanceKlass com/sun/org/apache/xerces/internal/dom/NamedNodeMapImpl
+instanceKlass org/springframework/beans/factory/xml/DocumentDefaultsDefinition
+instanceKlass org/springframework/beans/factory/parsing/ParseState
+instanceKlass org/springframework/beans/factory/parsing/DefaultsDefinition
+instanceKlass org/springframework/beans/factory/support/MethodOverride
+instanceKlass org/springframework/beans/Mergeable
+instanceKlass org/springframework/beans/factory/parsing/ParseState$Entry
+instanceKlass org/springframework/beans/factory/xml/BeanDefinitionParserDelegate
+instanceKlass org/w3c/dom/Comment
+instanceKlass com/sun/org/apache/xerces/internal/dom/CharacterDataImpl$1
+instanceKlass org/w3c/dom/Text
+instanceKlass org/w3c/dom/CharacterData
+instanceKlass com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl$IntVector
+instanceKlass org/springframework/beans/factory/parsing/ReaderContext
+instanceKlass org/springframework/beans/factory/xml/DefaultNamespaceHandlerResolver
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/ObjectList
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/AttributePSVImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/AttributePSVI
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/models/CMStateSet
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSDFACM
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/models/CMNode
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSConstraints$1
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSConstraints
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl$ValidationContextImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/ShortList
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractTraverser$FacetInfo
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSModelGroupImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSModelGroup
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSWildcardDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSWildcard
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/XSObjectListImpl$1
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSObjectList
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/XSQName
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAttributeUseImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAttributeUse
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAttributeGroupDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAnnotationImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAnnotation
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/NamedNodeMapImpl
+instanceKlass org/w3c/dom/NamedNodeMap
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/identity/IdentityConstraint
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSIDCDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractParticleTraverser$ParticleArray
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDAbstractTraverser
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/Container
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/OneAttr
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/XInt
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/XIntPool
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSAttributeChecker
+instanceKlass com/sun/org/apache/xerces/internal/util/DOMUtil
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceSupport$Prefixes
+instanceKlass org/w3c/dom/Attr
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/DefaultNode
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler$XSDKey
+instanceKlass java/util/zip/ZipFile$ZipEntryIterator
+instanceKlass java/util/jar/JarFile$JarEntryIterator
+instanceKlass org/springframework/core/io/support/PropertiesLoaderUtils
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader$LocationArray
+instanceKlass com/sun/org/apache/xerces/internal/impl/Constants$ArrayEnumeration
+instanceKlass com/sun/org/apache/xerces/internal/impl/Constants
+instanceKlass com/sun/org/apache/xerces/internal/dom/DeferredDocumentImpl$RefCount
+instanceKlass com/sun/org/apache/xerces/internal/dom/NodeListCache
+instanceKlass org/w3c/dom/DocumentType
+instanceKlass com/sun/org/apache/xerces/internal/dom/NodeImpl
+instanceKlass org/w3c/dom/events/EventTarget
+instanceKlass org/w3c/dom/NodeList
+instanceKlass org/w3c/dom/Document
+instanceKlass org/w3c/dom/ranges/DocumentRange
+instanceKlass org/w3c/dom/events/DocumentEvent
+instanceKlass org/w3c/dom/traversal/DocumentTraversal
+instanceKlass com/sun/org/apache/xerces/internal/dom/DeferredNode
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLSymbols
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$LocalIDKey
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$ValueStoreCache
+instanceKlass com/sun/org/apache/xerces/internal/util/IntStack
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/identity/XPathMatcher
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$XPathMatcherStack
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSNotationDeclaration
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/SchemaDOMParser$BooleanStack
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/opti/DefaultXMLDocumentHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDocumentInfo
+instanceKlass org/w3c/dom/Element
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSParticleDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSParticle
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSMessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/util/DefaultErrorHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaLoader
+instanceKlass org/w3c/dom/DOMConfiguration
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSLoader
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarLoader
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSEmptyCM
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/XSCMValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/CMBuilder
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/models/CMNodeFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSAttributeDeclaration
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/Token
+instanceKlass sun/net/www/protocol/jar/JarFileFactory
+instanceKlass sun/net/www/protocol/jar/URLJarFile$URLJarFileCloseController
+instanceKlass java/util/ResourceBundle$Control$1
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$7
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegexParser
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/REUtil
+instanceKlass com/sun/org/apache/xerces/internal/impl/xpath/regex/RegularExpression
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/DecimalDV$XDecimal
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/XSDecimal
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/ValidatedInfo
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/XSFacets
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl$4
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl$1
+instanceKlass com/sun/org/apache/xerces/internal/util/URI
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/AbstractDateTimeDV$DateTimeData
+instanceKlass com/sun/org/apache/xerces/internal/xs/datatypes/XSDateTime
+instanceKlass javax/xml/datatype/DatatypeFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/TypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/XSSimpleTypeDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/XSSimpleType
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSSimpleTypeDefinition
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolHash$Entry
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolHash
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$3
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$2
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$1
+instanceKlass com/sun/org/apache/xerces/internal/utils/ObjectFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/SchemaDVFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSModelGroupDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/util/SimpleLocator
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SchemaSymbols
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSComplexTypeDecl
+instanceKlass org/w3c/dom/TypeInfo
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSComplexTypeDefinition
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSTypeDefinition
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSNamespaceItem
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XSGrammar
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/Grammar
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SubstitutionGroupHandler$OneSubGroup
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSElementDecl
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSElementDeclaration
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSTerm
+instanceKlass com/sun/org/apache/xerces/internal/xs/XSObject
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/SubstitutionGroupHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XSGrammarBucket
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLSchemaDescription
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator$XSIErrorReporter
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/ElementPSVImpl
+instanceKlass com/sun/org/apache/xerces/internal/xs/ElementPSVI
+instanceKlass com/sun/org/apache/xerces/internal/xs/ItemPSVI
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/XMLSchemaValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/xs/identity/FieldActivator
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLChar
+instanceKlass com/sun/xml/internal/stream/Entity
+instanceKlass com/sun/xml/internal/stream/util/BufferAllocator
+instanceKlass com/sun/xml/internal/stream/util/ThreadLocalBufferAllocator
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLInputSource
+instanceKlass com/sun/org/apache/xerces/internal/impl/ExternalSubsetResolver
+instanceKlass com/sun/org/apache/xerces/internal/util/EntityResolverWrapper
+instanceKlass org/xml/sax/ext/EntityResolver2
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager
+instanceKlass com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLErrorHandler
+instanceKlass org/xml/sax/helpers/DefaultHandler
+instanceKlass org/xml/sax/ContentHandler
+instanceKlass org/xml/sax/DTDHandler
+instanceKlass com/sun/org/apache/xerces/internal/util/PropertyState
+instanceKlass com/sun/org/apache/xerces/internal/util/FeatureState
+instanceKlass com/sun/org/apache/xerces/internal/impl/msg/XMLMessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/util/MessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLVersionDetector
+instanceKlass com/sun/org/apache/xerces/internal/impl/validation/ValidationManager
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/NMTOKENDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/NOTATIONDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/ENTITYDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/ListDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/IDREFDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/IDDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/dtd/StringDatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/DatatypeValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/DTDDVFactory
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/DTDGrammarBucket
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLAttributeDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLSimpleType
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLElementDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/validation/ValidationState
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/ValidationContext
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLDTDValidator
+instanceKlass com/sun/org/apache/xerces/internal/impl/RevalidationHandler
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLDTDValidatorFilter
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentFilter
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLEntityDecl
+instanceKlass com/sun/org/apache/xerces/internal/impl/dtd/XMLDTDProcessor
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDContentModelFilter
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDFilter
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDContentModelSource
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDTDSource
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLDTDDescription
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarDescription
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$TrailingMiscDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$PrologDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$XMLDeclDriver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceSupport
+instanceKlass com/sun/org/apache/xerces/internal/xni/NamespaceContext
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLAttributesImpl$Attribute
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLAttributesImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLAttributes
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$FragmentContentDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$Driver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack2
+instanceKlass com/sun/org/apache/xerces/internal/xni/QName
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLString
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLScanner
+instanceKlass com/sun/xml/internal/stream/XMLBufferListener
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentSource
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLErrorReporter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLLocator
+instanceKlass com/sun/xml/internal/stream/XMLEntityStorage
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$8
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$4
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport
+instanceKlass java/util/concurrent/locks/AbstractQueuedSynchronizer$Node
+instanceKlass java/util/concurrent/locks/AbstractOwnableSynchronizer
+instanceKlass java/util/concurrent/CopyOnWriteArrayList
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$CharacterBuffer
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$CharacterBufferPool
+instanceKlass com/sun/org/apache/xerces/internal/util/AugmentationsImpl$AugmentationsItemsContainer
+instanceKlass com/sun/org/apache/xerces/internal/util/AugmentationsImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/Augmentations
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLResourceIdentifierImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLResourceIdentifier
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLComponent
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable$Entry
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable
+instanceKlass com/sun/org/apache/xerces/internal/util/ParserConfigurationSettings
+instanceKlass com/sun/org/apache/xerces/internal/parsers/XML11Configurable
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLPullParserConfiguration
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLParserConfiguration
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager
+instanceKlass com/sun/org/apache/xerces/internal/parsers/XMLParser
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLDTDContentModelHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLDTDHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLDocumentHandler
+instanceKlass javax/xml/parsers/DocumentBuilder
+instanceKlass com/sun/org/apache/xerces/internal/jaxp/JAXPConstants
+instanceKlass javax/xml/parsers/SecuritySupport$1
+instanceKlass javax/xml/parsers/FactoryFinder$1
+instanceKlass javax/xml/parsers/SecuritySupport$5
+instanceKlass javax/xml/parsers/SecuritySupport$2
+instanceKlass javax/xml/parsers/SecuritySupport
+instanceKlass javax/xml/parsers/FactoryFinder
+instanceKlass javax/xml/parsers/DocumentBuilderFactory
+instanceKlass org/springframework/beans/factory/xml/PluggableSchemaResolver
+instanceKlass org/springframework/beans/factory/xml/BeansDtdResolver
+instanceKlass org/springframework/beans/factory/xml/DelegatingEntityResolver
+instanceKlass org/xml/sax/InputSource
+instanceKlass org/springframework/core/io/support/EncodedResource
+instanceKlass org/springframework/core/io/AbstractResource
+instanceKlass org/springframework/util/xml/XmlValidationModeDetector
+instanceKlass org/springframework/util/xml/SimpleSaxErrorHandler
+instanceKlass org/springframework/beans/factory/xml/DefaultDocumentLoader
+instanceKlass org/springframework/beans/factory/parsing/NullSourceExtractor
+instanceKlass org/springframework/beans/factory/parsing/EmptyReaderEventListener
+instanceKlass org/springframework/beans/factory/parsing/FailFastProblemReporter
+instanceKlass org/springframework/beans/factory/parsing/ComponentDefinition
+instanceKlass org/w3c/dom/Node
+instanceKlass org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader
+instanceKlass org/springframework/beans/factory/xml/BeanDefinitionDocumentReader
+instanceKlass org/springframework/beans/factory/support/DefaultBeanNameGenerator
+instanceKlass sun/reflect/UnsafeFieldAccessorFactory
+instanceKlass org/springframework/core/Constants
+instanceKlass org/xml/sax/ErrorHandler
+instanceKlass org/springframework/beans/factory/xml/NamespaceHandlerResolver
+instanceKlass org/springframework/beans/factory/parsing/ReaderEventListener
+instanceKlass org/springframework/beans/factory/parsing/ProblemReporter
+instanceKlass org/springframework/beans/factory/parsing/SourceExtractor
+instanceKlass org/xml/sax/EntityResolver
+instanceKlass org/springframework/beans/factory/xml/DocumentLoader
+instanceKlass org/springframework/beans/factory/support/BeanNameGenerator
+instanceKlass org/springframework/beans/factory/support/AbstractBeanDefinitionReader
+instanceKlass org/springframework/beans/factory/support/SimpleAutowireCandidateResolver
+instanceKlass org/springframework/beans/factory/support/AutowireCandidateResolver
+instanceKlass org/springframework/beans/factory/support/AutowireUtils
+instanceKlass org/springframework/beans/factory/BeanClassLoaderAware
+instanceKlass org/springframework/beans/factory/BeanFactoryAware
+instanceKlass org/springframework/beans/factory/BeanNameAware
+instanceKlass org/springframework/beans/factory/support/SimpleInstantiationStrategy
+instanceKlass org/springframework/beans/factory/support/InstantiationStrategy
+instanceKlass org/springframework/beans/BeanWrapper
+instanceKlass org/springframework/beans/ConfigurablePropertyAccessor
+instanceKlass org/springframework/beans/PropertyAccessor
+instanceKlass org/springframework/beans/MutablePropertyValues
+instanceKlass org/springframework/beans/PropertyValues
+instanceKlass org/springframework/beans/TypeConverter
+instanceKlass org/springframework/beans/factory/config/BeanDefinition
+instanceKlass org/springframework/beans/BeanMetadataElement
+instanceKlass java/beans/PropertyEditor
+instanceKlass org/springframework/beans/PropertyEditorRegistry
+instanceKlass org/springframework/beans/factory/ObjectFactory
+instanceKlass org/springframework/core/SimpleAliasRegistry
+instanceKlass org/springframework/util/AntPathMatcher
+instanceKlass org/eclipse/core/runtime/IPath
+instanceKlass org/osgi/framework/Bundle
+instanceKlass org/eclipse/core/runtime/FileLocator
+instanceKlass org/springframework/util/PathMatcher
+instanceKlass org/springframework/core/io/support/PathMatchingResourcePatternResolver
+instanceKlass java/util/EventObject
+instanceKlass org/springframework/beans/factory/config/ConfigurableListableBeanFactory
+instanceKlass org/springframework/beans/factory/config/ConfigurableBeanFactory
+instanceKlass org/springframework/beans/factory/config/SingletonBeanRegistry
+instanceKlass org/springframework/beans/factory/config/AutowireCapableBeanFactory
+instanceKlass org/springframework/core/SmartClassLoader
+instanceKlass org/springframework/beans/PropertyEditorRegistrar
+instanceKlass org/springframework/context/event/ApplicationEventMulticaster
+instanceKlass org/springframework/beans/factory/config/BeanPostProcessor
+instanceKlass org/springframework/core/io/Resource
+instanceKlass org/springframework/core/io/InputStreamSource
+instanceKlass org/springframework/core/io/DefaultResourceLoader
+instanceKlass org/springframework/beans/factory/DisposableBean
+instanceKlass org/junit/internal/runners/JUnit4ClassRunner$1
+instanceKlass java/util/Formattable
+instanceKlass java/util/Formatter$FixedString
+instanceKlass java/util/Formatter$Conversion
+instanceKlass java/util/Formatter$Flags
+instanceKlass java/util/Formatter$FormatSpecifier
+instanceKlass java/util/Formatter$FormatString
+instanceKlass java/util/Currency$CurrencyNameGetter
+instanceKlass java/util/Currency$1
+instanceKlass java/util/Currency
+instanceKlass java/util/concurrent/atomic/AtomicMarkableReference$Pair
+instanceKlass java/util/concurrent/atomic/AtomicMarkableReference
+instanceKlass java/text/DecimalFormatSymbols
+instanceKlass java/util/Formatter
+instanceKlass org/junit/runner/Description
+instanceKlass org/junit/internal/runners/ClassRoadie
+instanceKlass org/springframework/test/annotation/IfProfileValue
+instanceKlass org/springframework/test/annotation/SystemProfileValueSource
+instanceKlass org/springframework/test/annotation/ProfileValueSource
+instanceKlass org/springframework/test/annotation/ProfileValueUtils
+instanceKlass org/springframework/transaction/interceptor/TransactionAttribute
+instanceKlass org/springframework/transaction/annotation/SpringTransactionAnnotationParser
+instanceKlass org/springframework/transaction/annotation/TransactionAnnotationParser
+instanceKlass java/util/NavigableSet
+instanceKlass org/springframework/core/JdkVersion
+instanceKlass java/util/SortedSet
+instanceKlass org/apache/commons/collections/IterableMap
+instanceKlass org/springframework/core/ConcurrentMap
+instanceKlass org/springframework/core/CollectionFactory
+instanceKlass org/springframework/util/ClassUtils
+instanceKlass org/springframework/transaction/interceptor/AbstractFallbackTransactionAttributeSource
+instanceKlass org/springframework/transaction/interceptor/TransactionAttributeSource
+instanceKlass org/springframework/transaction/TransactionDefinition
+instanceKlass java/io/Externalizable
+instanceKlass org/springframework/core/Conventions
+instanceKlass org/springframework/util/CollectionUtils
+instanceKlass org/springframework/util/StringUtils
+instanceKlass org/springframework/util/ResourceUtils
+instanceKlass org/springframework/core/io/support/ResourcePatternUtils
+instanceKlass org/springframework/util/ObjectUtils
+instanceKlass java/util/AbstractList$Itr
+instanceKlass org/springframework/core/annotation/AnnotationUtils
+instanceKlass org/springframework/util/ReflectionUtils$3
+instanceKlass org/springframework/util/ReflectionUtils$FieldFilter
+instanceKlass org/springframework/util/ReflectionUtils$FieldCallback
+instanceKlass org/springframework/util/ReflectionUtils$MethodCallback
+instanceKlass org/springframework/util/ReflectionUtils
+instanceKlass org/springframework/beans/factory/support/BeanDefinitionReader
+instanceKlass org/springframework/context/ConfigurableApplicationContext
+instanceKlass org/springframework/context/Lifecycle
+instanceKlass org/springframework/context/ApplicationContext
+instanceKlass org/springframework/core/io/support/ResourcePatternResolver
+instanceKlass org/springframework/core/io/ResourceLoader
+instanceKlass org/springframework/context/ApplicationEventPublisher
+instanceKlass org/springframework/context/MessageSource
+instanceKlass org/springframework/beans/factory/HierarchicalBeanFactory
+instanceKlass org/springframework/beans/factory/ListableBeanFactory
+instanceKlass org/springframework/beans/factory/BeanFactory
+instanceKlass org/springframework/beans/factory/support/BeanDefinitionRegistry
+instanceKlass org/springframework/core/AliasRegistry
+instanceKlass java/util/Collections$SynchronizedMap
+instanceKlass org/springframework/beans/BeanUtils
+instanceKlass org/springframework/test/context/support/AbstractContextLoader
+instanceKlass org/springframework/util/Assert
+instanceKlass org/springframework/core/AttributeAccessorSupport
+instanceKlass org/springframework/core/AttributeAccessor
+instanceKlass org/springframework/test/context/ContextCache
+instanceKlass org/springframework/test/context/TestContextManager
+instanceKlass org/junit/After
+instanceKlass org/junit/AfterClass
+instanceKlass org/junit/internal/runners/MethodValidator
+instanceKlass org/junit/BeforeClass
+instanceKlass org/junit/internal/runners/TestClass
+instanceKlass org/apache/log4j/CategoryKey
+instanceKlass org/apache/log4j/helpers/AppenderAttachableImpl
+instanceKlass java/util/Date
+instanceKlass sun/util/calendar/CalendarUtils
+instanceKlass sun/util/calendar/CalendarDate
+instanceKlass sun/util/locale/LanguageTag
+instanceKlass java/util/ResourceBundle$CacheKeyReference
+instanceKlass java/util/ResourceBundle$CacheKey
+instanceKlass java/util/ResourceBundle$RBClassLoader$1
+instanceKlass java/util/spi/ResourceBundleControlProvider
+instanceKlass java/util/ResourceBundle
+instanceKlass java/util/ResourceBundle$Control
+instanceKlass sun/util/resources/LocaleData$1
+instanceKlass sun/util/resources/LocaleData
+instanceKlass sun/util/locale/provider/LocaleResources
+instanceKlass sun/util/locale/provider/CalendarDataUtility$CalendarWeekParameterGetter
+instanceKlass sun/util/locale/provider/LocaleServiceProviderPool$LocalizedObjectGetter
+instanceKlass java/net/URLClassLoader$3$1
+instanceKlass sun/misc/CompoundEnumeration
+instanceKlass java/net/URLClassLoader$3
+instanceKlass sun/misc/URLClassPath$1
+instanceKlass java/lang/ClassLoader$2
+instanceKlass sun/misc/URLClassPath$2
+instanceKlass java/util/ServiceLoader$1
+instanceKlass java/util/ServiceLoader$LazyIterator
+instanceKlass java/util/ServiceLoader
+instanceKlass sun/util/locale/provider/SPILocaleProviderAdapter$1
+instanceKlass sun/util/locale/provider/LocaleServiceProviderPool
+instanceKlass sun/util/locale/provider/CalendarDataUtility
+instanceKlass java/util/Calendar$Builder
+instanceKlass sun/util/locale/provider/JRELocaleProviderAdapter$1
+instanceKlass sun/util/locale/provider/LocaleDataMetaInfo
+instanceKlass sun/util/locale/provider/AvailableLanguageTags
+instanceKlass sun/util/locale/provider/LocaleProviderAdapter$1
+instanceKlass java/util/Collections$UnmodifiableCollection$1
+instanceKlass sun/util/locale/provider/ResourceBundleBasedAdapter
+instanceKlass sun/util/locale/provider/LocaleProviderAdapter
+instanceKlass java/util/spi/LocaleServiceProvider
+instanceKlass java/util/Locale$1
+instanceKlass java/util/TimeZone$1
+instanceKlass java/util/zip/CRC32
+instanceKlass java/util/zip/Checksum
+instanceKlass sun/util/calendar/ZoneInfoFile$ZoneOffsetTransitionRule
+instanceKlass java/io/DataInput
+instanceKlass sun/util/calendar/ZoneInfoFile$1
+instanceKlass sun/util/calendar/ZoneInfoFile
+instanceKlass sun/util/calendar/CalendarSystem
+instanceKlass java/util/TimeZone
+instanceKlass java/util/Calendar
+instanceKlass org/apache/log4j/spi/LoggingEvent
+instanceKlass java/beans/SimpleBeanInfo
+instanceKlass java/util/TreeMap$PrivateEntryIterator
+instanceKlass java/beans/Transient
+instanceKlass com/sun/beans/WildcardTypeImpl
+instanceKlass sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl
+instanceKlass java/lang/reflect/ParameterizedType
+instanceKlass sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator
+instanceKlass java/lang/reflect/WildcardType
+instanceKlass sun/reflect/generics/tree/MethodTypeSignature
+instanceKlass sun/reflect/generics/tree/Wildcard
+instanceKlass sun/reflect/generics/tree/BottomSignature
+instanceKlass java/lang/reflect/TypeVariable
+instanceKlass sun/reflect/generics/tree/ClassSignature
+instanceKlass sun/reflect/generics/tree/Signature
+instanceKlass sun/reflect/generics/tree/FormalTypeParameter
+instanceKlass com/sun/beans/TypeResolver
+instanceKlass java/beans/MethodRef
+instanceKlass com/sun/beans/util/Cache$CacheEntry
+instanceKlass com/sun/beans/util/Cache
+instanceKlass com/sun/beans/finder/AbstractFinder
+instanceKlass com/sun/beans/finder/ClassFinder
+instanceKlass com/sun/beans/finder/InstanceFinder
+instanceKlass java/beans/WeakIdentityMap
+instanceKlass java/beans/ThreadGroupContext
+instanceKlass java/util/EventListener
+instanceKlass com/sun/beans/WeakCache
+instanceKlass java/beans/Introspector
+instanceKlass java/beans/FeatureDescriptor
+instanceKlass java/beans/BeanInfo
+instanceKlass org/apache/log4j/config/PropertySetter
+instanceKlass org/apache/log4j/helpers/FormattingInfo
+instanceKlass java/text/Format
+instanceKlass org/apache/log4j/helpers/PatternConverter
+instanceKlass org/apache/log4j/helpers/PatternParser
+instanceKlass org/apache/log4j/helpers/OnlyOnceErrorHandler
+instanceKlass org/apache/log4j/Layout
+instanceKlass org/apache/log4j/spi/ErrorHandler
+instanceKlass org/apache/log4j/AppenderSkeleton
+instanceKlass org/apache/log4j/spi/OptionHandler
+instanceKlass org/apache/log4j/Appender
+instanceKlass sun/net/DefaultProgressMeteringPolicy
+instanceKlass sun/net/ProgressMeteringPolicy
+instanceKlass sun/net/ProgressMonitor
+instanceKlass org/apache/log4j/PropertyConfigurator
+instanceKlass org/apache/log4j/helpers/LogLog
+instanceKlass org/apache/log4j/helpers/Loader
+instanceKlass org/apache/log4j/spi/Configurator
+instanceKlass org/apache/log4j/helpers/OptionConverter
+instanceKlass org/apache/log4j/spi/DefaultRepositorySelector
+instanceKlass org/apache/log4j/DefaultCategoryFactory
+instanceKlass org/apache/log4j/or/DefaultRenderer
+instanceKlass org/apache/log4j/or/ObjectRenderer
+instanceKlass org/apache/log4j/or/RendererMap
+instanceKlass org/apache/log4j/spi/LoggerFactory
+instanceKlass org/apache/log4j/Hierarchy
+instanceKlass org/apache/log4j/spi/RendererSupport
+instanceKlass org/apache/log4j/spi/RepositorySelector
+instanceKlass org/apache/log4j/spi/LoggerRepository
+instanceKlass org/apache/log4j/LogManager
+instanceKlass org/apache/log4j/Priority
+instanceKlass org/apache/commons/logging/impl/Log4JLogger
+instanceKlass org/apache/commons/logging/Log
+instanceKlass org/apache/log4j/Category
+instanceKlass org/apache/log4j/spi/AppenderAttachable
+instanceKlass org/apache/commons/logging/impl/LogFactoryImpl$1
+instanceKlass org/apache/commons/logging/LogFactory$2
+instanceKlass java/net/URLClassLoader$2
+instanceKlass sun/misc/Launcher$BootClassPathHolder$1
+instanceKlass sun/misc/Launcher$BootClassPathHolder
+instanceKlass org/apache/commons/logging/LogFactory$3
+instanceKlass org/apache/commons/logging/LogFactory$1
+instanceKlass org/apache/commons/logging/LogFactory
+instanceKlass org/junit/Ignore
+instanceKlass org/junit/runner/manipulation/Filter
+instanceKlass org/junit/runner/Request
+instanceKlass org/apache/maven/surefire/junit4/JUnit4TestSet
+instanceKlass org/apache/maven/surefire/report/SimpleReportEntry
+instanceKlass org/junit/runner/notification/RunNotifier$SafeNotifier
+instanceKlass java/util/LinkedList$ListItr
+instanceKlass org/junit/runner/notification/RunNotifier
+instanceKlass org/junit/runner/Result
+instanceKlass org/apache/maven/surefire/report/ConsoleOutputCapture
+instanceKlass org/apache/maven/surefire/util/internal/StringUtils
+instanceKlass org/apache/maven/surefire/booter/ForkingRunListener
+instanceKlass org/apache/maven/surefire/report/ConsoleOutputReceiver
+instanceKlass org/apache/maven/surefire/util/TestsToRun
+instanceKlass java/util/TimSort
+instanceKlass java/util/Arrays$LegacyMergeSort
+instanceKlass org/libreplan/business/util/ListSorterTest
+instanceKlass org/libreplan/business/util/deepcopy/DeepCopyTest
+instanceKlass org/libreplan/business/test/workreports/entities/WorkReportTest
+instanceKlass org/libreplan/business/test/workreports/entities/WorkReportLineTest
+instanceKlass org/libreplan/business/workreports/valueobjects/DescriptionField
+instanceKlass org/libreplan/business/workreports/entities/IWorkReportsElements
+instanceKlass org/libreplan/business/test/workreports/daos/AbstractWorkReportTest
+instanceKlass org/libreplan/business/test/workingday/ResourcesPerDayTest
+instanceKlass org/libreplan/business/workingday/IntraDayDate$UntilEnd
+instanceKlass org/libreplan/business/workingday/IntraDayDate$IterationPredicate
+instanceKlass org/libreplan/business/test/workingday/IntraDayDateTest
+instanceKlass org/libreplan/business/test/workingday/hibernate/ResourcesPerDayTypeTest
+instanceKlass org/libreplan/business/test/workingday/hibernate/EffortDurationTypeTest
+instanceKlass org/libreplan/business/test/workingday/EffortDurationTest
+instanceKlass org/libreplan/business/test/users/daos/UserDAOTest
+instanceKlass org/libreplan/business/test/users/daos/ProfileDAOTest
+instanceKlass org/libreplan/business/test/users/daos/OrderAuthorizationDAOTest
+instanceKlass org/libreplan/business/test/scenarios/OnlyMainScenarioAwareManagerTest
+instanceKlass org/libreplan/business/test/scenarios/entities/ScenarioTest
+instanceKlass org/libreplan/business/common/daos/IConfigurationDAO
+instanceKlass org/libreplan/business/orders/daos/IOrderDAO
+instanceKlass org/libreplan/business/common/daos/IIntegrationEntityDAO
+instanceKlass org/libreplan/business/common/daos/IGenericDAO
+instanceKlass org/libreplan/business/test/scenarios/daos/ScenarioDAOTest
+instanceKlass org/libreplan/business/test/scenarios/bootstrap/ScenariosBootstrapTest
+instanceKlass org/libreplan/business/resources/entities/CriterionTypeBase
+instanceKlass org/libreplan/business/test/resources/entities/ResourceTest
+instanceKlass org/libreplan/business/test/resources/entities/IntervalTest
+instanceKlass org/libreplan/business/test/resources/entities/CriterionTest
+instanceKlass org/libreplan/business/test/resources/entities/CriterionSatisfactionTest
+instanceKlass org/libreplan/business/test/resources/daos/ResourceDAOTest
+instanceKlass org/libreplan/business/test/resources/daos/MachineDAOTest
+instanceKlass org/libreplan/business/test/resources/daos/CriterionTypeDAOTest
+instanceKlass org/libreplan/business/test/resources/daos/CriterionSatisfactionDAOTest
+instanceKlass org/libreplan/business/resources/entities/ICriterionType
+instanceKlass org/libreplan/business/test/resources/daos/CriterionDAOTest
+instanceKlass org/libreplan/business/test/resources/bootstrap/CriterionsBootstrapTest
+instanceKlass org/libreplan/business/qualityforms/entities/QualityFormItem
+instanceKlass org/libreplan/business/test/qualityforms/daos/AbstractQualityFormTest
+instanceKlass org/libreplan/business/test/planner/entities/ValleyFillerTest
+instanceKlass org/libreplan/business/calendars/entities/AvailabilityTimeLine
+instanceKlass org/libreplan/business/test/planner/entities/UntilFillingHoursAllocatorTest
+instanceKlass org/libreplan/business/test/planner/entities/TaskTest
+instanceKlass org/libreplan/business/test/planner/entities/TaskGroupTest
+instanceKlass org/libreplan/business/test/planner/entities/TaskElementTest
+instanceKlass org/libreplan/business/planner/entities/Stretch
+instanceKlass org/libreplan/business/test/planner/entities/StretchesFunctionTest
+instanceKlass org/libreplan/business/planner/entities/ResourceAllocation$IOnDayAssignmentRemoval
+instanceKlass org/libreplan/business/test/planner/entities/SpecificResourceAllocationTest
+instanceKlass org/libreplan/business/test/planner/entities/ShareTest
+instanceKlass org/libreplan/business/planner/entities/Share
+instanceKlass org/libreplan/business/test/planner/entities/ShareDivisionTest
+instanceKlass org/libreplan/business/test/planner/entities/MoneyCostCalculatorTest
+instanceKlass org/libreplan/business/resources/entities/Interval
+instanceKlass org/libreplan/business/test/planner/entities/GenericResourceAllocationTest$LoadSpec
+instanceKlass org/joda/time/base/AbstractInterval
+instanceKlass org/joda/time/ReadableInterval
+instanceKlass org/joda/time/base/AbstractPeriod
+instanceKlass org/libreplan/business/workingday/IntraDayDate
+instanceKlass org/easymock/IAnswer
+instanceKlass org/joda/time/ReadableInstant
+instanceKlass org/joda/time/ReadablePeriod
+instanceKlass org/libreplan/business/test/planner/entities/GenericResourceAllocationTest
+instanceKlass org/libreplan/business/test/planner/entities/DerivedAllocationTest
+instanceKlass org/libreplan/business/test/planner/entities/DerivedAllocationGeneratorTest
+instanceKlass org/libreplan/business/test/planner/entities/DependencyTest
+instanceKlass org/libreplan/business/test/planner/entities/allocationalgorithms/DistributorTest
+instanceKlass org/libreplan/business/workingday/ResourcesPerDay
+instanceKlass org/libreplan/business/test/planner/entities/AggregateOfResourceAllocationsTest
+instanceKlass org/libreplan/business/orders/entities/TaskSource$TaskSourceSynchronization
+instanceKlass org/libreplan/business/planner/entities/ITaskPositionConstrained
+instanceKlass org/libreplan/business/test/planner/daos/TaskElementDAOTest
+instanceKlass org/libreplan/business/test/planner/daos/SubcontractorCommunicationDAOTest
+instanceKlass org/libreplan/business/scenarios/IScenarioManager
+instanceKlass org/libreplan/business/planner/entities/IAllocatable
+instanceKlass org/libreplan/business/planner/entities/IAllocateResourcesPerDay
+instanceKlass org/libreplan/business/planner/entities/AssignedEffortForResource$IAssignedEffortForResource
+instanceKlass org/libreplan/business/test/planner/daos/ResourceAllocationDAOTest
+instanceKlass org/libreplan/business/test/planner/daos/LimitingResourceQueueElementDAOTest
+instanceKlass org/libreplan/business/test/planner/daos/AssignmentFunctionDAOTest
+instanceKlass org/libreplan/business/planner/chart/ContiguousDaysLine
+instanceKlass org/libreplan/business/planner/chart/ContiguousDaysLine$IValueTransformer
+instanceKlass org/libreplan/business/test/planner/chart/ContiguousDaysLineTest
+instanceKlass org/libreplan/business/orders/entities/SchedulingState$ITypeChangedListener
+instanceKlass org/libreplan/business/test/orders/entities/SchedulingStateTest
+instanceKlass org/libreplan/business/test/orders/entities/OrderTest
+instanceKlass org/libreplan/business/test/orders/entities/OrderLineTest
+instanceKlass org/libreplan/business/test/orders/entities/OrderElementTest
+instanceKlass org/junit/Before
+instanceKlass org/libreplan/business/resources/entities/ICriterion
+instanceKlass org/libreplan/business/test/orders/entities/AggregatedHoursGroupTest
+instanceKlass org/hibernate/Session
+instanceKlass org/libreplan/business/test/orders/entities/AddAdvanceAssignmentsToOrderElementTest
+instanceKlass org/libreplan/business/test/orders/daos/OrderElementDAOTest
+instanceKlass org/libreplan/business/test/orders/daos/OrderDAOTest
+instanceKlass org/libreplan/business/test/materials/daos/MaterialDAOTest
+instanceKlass sun/reflect/ClassDefiner$1
+instanceKlass sun/reflect/ClassDefiner
+instanceKlass sun/reflect/MethodAccessorGenerator$1
+instanceKlass sun/reflect/Label$PatchInfo
+instanceKlass sun/reflect/Label
+instanceKlass sun/reflect/UTF8
+instanceKlass sun/reflect/ClassFileAssembler
+instanceKlass sun/reflect/ByteVectorImpl
+instanceKlass sun/reflect/ByteVector
+instanceKlass sun/reflect/ByteVectorFactory
+instanceKlass sun/reflect/AccessorGenerator
+instanceKlass sun/reflect/ClassFileConstants
+instanceKlass org/libreplan/business/test/materials/daos/MaterialCategoryDAOTest
+instanceKlass org/libreplan/business/test/materials/daos/MaterialAssignmentDAOTest
+instanceKlass org/libreplan/business/test/labels/daos/LabelTypeDAOTest
+instanceKlass org/libreplan/business/test/labels/daos/LabelDAOTest
+instanceKlass org/libreplan/business/common/IOnTransaction
+instanceKlass org/libreplan/business/test/externalcompanies/daos/ExternalCompanyDAOTest
+instanceKlass org/libreplan/business/orders/entities/ICriterionRequirable
+instanceKlass org/libreplan/business/trees/ITreeParentNode
+instanceKlass org/libreplan/business/trees/ITreeNode
+instanceKlass org/libreplan/business/test/externalcompanies/daos/CustomerCommunicationDAOTest
+instanceKlass org/libreplan/business/test/costcategories/daos/TypeOfWorkHoursDAOTest
+instanceKlass org/libreplan/business/test/costcategories/daos/ResourcesCostCategoryAssignmentDAOTest
+instanceKlass org/libreplan/business/test/costcategories/daos/HourCostDAOTest
+instanceKlass org/libreplan/business/test/costcategories/daos/CostCategoryDAOTest
+instanceKlass org/libreplan/business/test/calendars/entities/ResourceCalendarTest
+instanceKlass org/libreplan/business/test/calendars/entities/CombinedWorkHoursTest
+instanceKlass org/libreplan/business/test/calendars/entities/CapacityTest
+instanceKlass org/libreplan/business/test/calendars/entities/CalendarExceptionTest
+instanceKlass org/libreplan/business/calendars/entities/Capacity
+instanceKlass org/libreplan/business/workingday/EffortDuration
+instanceKlass org/libreplan/business/test/calendars/entities/BaseCalendarTest
+instanceKlass org/joda/time/base/AbstractPartial
+instanceKlass org/libreplan/business/calendars/entities/AvailabilityTimeLine$DatePoint
+instanceKlass org/libreplan/business/calendars/entities/AvailabilityTimeLine$IVetoer
+instanceKlass org/joda/time/ReadablePartial
+instanceKlass org/libreplan/business/test/calendars/entities/AvailabilityTimeLineTest
+instanceKlass org/libreplan/business/common/IHumanIdentifiable
+instanceKlass org/libreplan/business/calendars/entities/ICalendar
+instanceKlass org/libreplan/business/test/calendars/daos/BaseCalendarDAOTest
+instanceKlass org/libreplan/business/test/advance/entities/AdvanceTypeTest
+instanceKlass org/libreplan/business/test/advance/entities/AdvanceMeasurementTest
+instanceKlass org/libreplan/business/test/advance/entities/AdvanceAssignmentTest
+instanceKlass org/libreplan/business/common/BaseEntity
+instanceKlass org/libreplan/business/INewObject
+instanceKlass org/libreplan/business/test/advance/daos/AdvanceAssignmentDAOTest
+instanceKlass org/libreplan/business/test/advance/bootstrap/DefaultAdvanceTypesBootstrapListenerTest
+instanceKlass org/dbunit/dataset/AbstractDataSet
+instanceKlass org/dbunit/dataset/IDataSet
+instanceKlass org/dbunit/dataset/stream/IDataSetConsumer
+instanceKlass org/libreplan/business/common/test/dbunit/DBUnitConfiguration
+instanceKlass org/springframework/test/context/support/AbstractTestExecutionListener
+instanceKlass org/springframework/test/context/TestExecutionListener
+instanceKlass org/springframework/test/context/TestExecutionListeners
+instanceKlass org/libreplan/business/common/test/dbunit/AbstractDBUnitTest
+instanceKlass java/util/LinkedHashMap$LinkedHashIterator
+instanceKlass java/lang/Long$LongCache
+instanceKlass org/junit/Test
+instanceKlass org/hamcrest/Matcher
+instanceKlass org/hamcrest/SelfDescribing
+instanceKlass org/libreplan/business/common/ProportionalDistributorTest
+instanceKlass java/util/Collections$EmptyIterator
+instanceKlass org/springframework/transaction/annotation/Transactional
+instanceKlass java/lang/annotation/Documented
+instanceKlass org/springframework/test/context/ContextLoader
+instanceKlass org/springframework/test/context/ContextConfiguration
+instanceKlass org/junit/runner/Runner
+instanceKlass org/junit/runner/manipulation/Sortable
+instanceKlass org/junit/runner/manipulation/Filterable
+instanceKlass java/lang/annotation/Target
+instanceKlass java/lang/reflect/WeakCache$Value
+instanceKlass sun/misc/ProxyGenerator$ExceptionTableEntry
+instanceKlass sun/misc/ProxyGenerator$PrimitiveTypeInfo
+instanceKlass sun/misc/ProxyGenerator$FieldInfo
+instanceKlass java/io/DataOutput
+instanceKlass sun/misc/ProxyGenerator$ConstantPool$Entry
+instanceKlass sun/misc/ProxyGenerator$MethodInfo
+instanceKlass sun/misc/ProxyGenerator$ProxyMethod
+instanceKlass sun/misc/ProxyGenerator$ConstantPool
+instanceKlass sun/security/action/GetBooleanAction
+instanceKlass sun/misc/ProxyGenerator
+instanceKlass java/lang/reflect/WeakCache$Factory
+instanceKlass java/util/function/Supplier
+instanceKlass java/lang/reflect/Proxy$ProxyClassFactory
+instanceKlass java/lang/reflect/Proxy$KeyFactory
+instanceKlass java/util/function/BiFunction
+instanceKlass java/lang/reflect/WeakCache
+instanceKlass java/lang/reflect/Proxy
+instanceKlass sun/reflect/annotation/AnnotationInvocationHandler
+instanceKlass java/lang/reflect/InvocationHandler
+instanceKlass sun/reflect/annotation/AnnotationParser$1
+instanceKlass sun/reflect/annotation/ExceptionProxy
+instanceKlass java/lang/Class$4
+instanceKlass java/lang/annotation/Inherited
+instanceKlass java/lang/annotation/Retention
+instanceKlass sun/reflect/annotation/AnnotationType$1
+instanceKlass java/lang/reflect/GenericArrayType
+instanceKlass sun/reflect/generics/visitor/Reifier
+instanceKlass sun/reflect/generics/visitor/TypeTreeVisitor
+instanceKlass sun/reflect/generics/factory/CoreReflectionFactory
+instanceKlass sun/reflect/generics/factory/GenericsFactory
+instanceKlass sun/reflect/generics/scope/AbstractScope
+instanceKlass sun/reflect/generics/scope/Scope
+instanceKlass sun/reflect/generics/tree/ClassTypeSignature
+instanceKlass sun/reflect/generics/tree/SimpleClassTypeSignature
+instanceKlass sun/reflect/generics/tree/FieldTypeSignature
+instanceKlass sun/reflect/generics/tree/BaseType
+instanceKlass sun/reflect/generics/tree/TypeSignature
+instanceKlass sun/reflect/generics/tree/ReturnType
+instanceKlass sun/reflect/generics/tree/TypeArgument
+instanceKlass sun/reflect/generics/tree/TypeTree
+instanceKlass sun/reflect/generics/tree/Tree
+instanceKlass sun/reflect/generics/parser/SignatureParser
+instanceKlass sun/reflect/annotation/AnnotationParser
+instanceKlass org/libreplan/business/common/EntitySequenceTest
+instanceKlass org/apache/maven/surefire/shade/org/codehaus/plexus/util/SelectorUtils
+instanceKlass org/apache/maven/surefire/shade/org/codehaus/plexus/util/AbstractScanner
+instanceKlass org/apache/maven/surefire/shade/org/codehaus/plexus/util/Scanner
+instanceKlass org/apache/maven/surefire/booter/ProviderFactory$ProviderProxy
+instanceKlass org/junit/runner/RunWith
+instanceKlass junit/framework/Test
+instanceKlass org/apache/maven/surefire/NonAbstractClassFilter
+instanceKlass org/apache/maven/surefire/common/junit3/JUnit3TestChecker
+instanceKlass org/apache/maven/surefire/common/junit4/JUnit4TestChecker
+instanceKlass org/apache/maven/surefire/common/junit4/JUnit4RunListenerFactory
+instanceKlass org/apache/maven/surefire/util/DefaultDirectoryScanner$2
+instanceKlass org/apache/maven/surefire/util/DefaultDirectoryScanner
+instanceKlass org/junit/runner/notification/RunListener
+instanceKlass org/apache/maven/surefire/report/StackTraceWriter
+instanceKlass org/apache/maven/surefire/report/ReportEntry
+instanceKlass org/apache/maven/surefire/util/ScannerFilter
+instanceKlass org/apache/maven/surefire/providerapi/AbstractProvider
+instanceKlass java/util/LinkedList$Node
+instanceKlass org/apache/maven/surefire/util/DirectoryScanner
+instanceKlass org/apache/maven/surefire/report/ConsoleLogger
+instanceKlass org/apache/maven/surefire/booter/BaseProviderFactory
+instanceKlass org/apache/maven/surefire/providerapi/SurefireProvider
+instanceKlass org/apache/maven/surefire/booter/ProviderFactory
+instanceKlass org/apache/maven/surefire/util/ReflectionUtils
+instanceKlass org/apache/maven/surefire/report/RunListener
+instanceKlass org/apache/maven/surefire/booter/ForkingReporterFactory
+instanceKlass org/apache/maven/surefire/providerapi/ProviderParameters
+instanceKlass org/apache/maven/surefire/suite/RunResult
+instanceKlass org/apache/maven/surefire/report/ReporterFactory
+instanceKlass org/apache/maven/surefire/booter/ProviderPropertiesAware
+instanceKlass org/apache/maven/surefire/booter/ReporterConfigurationAware
+instanceKlass org/apache/maven/surefire/booter/SurefireClassLoadersAware
+instanceKlass org/apache/maven/surefire/booter/TestRequestAware
+instanceKlass org/apache/maven/surefire/booter/DirectoryScannerParametersAware
+instanceKlass org/apache/maven/surefire/booter/TestArtifactInfoAware
+instanceKlass org/apache/maven/surefire/report/AbstractReporter
+instanceKlass org/apache/maven/surefire/report/Reporter
+instanceKlass org/apache/maven/surefire/booter/StartupReportConfiguration
+instanceKlass org/apache/maven/surefire/booter/SurefireReflector
+instanceKlass java/lang/AssertionStatusDirectives
+instanceKlass org/apache/maven/surefire/util/UrlUtils
+instanceKlass org/apache/maven/surefire/booter/SurefireStarter
+instanceKlass org/apache/maven/surefire/booter/StartupConfiguration
+instanceKlass java/util/ArrayList$Itr
+instanceKlass org/apache/maven/surefire/booter/Classpath
+instanceKlass org/apache/maven/surefire/booter/ClasspathConfiguration
+instanceKlass org/apache/maven/surefire/booter/ClassLoaderConfiguration
+instanceKlass org/apache/maven/surefire/booter/ProviderConfiguration
+instanceKlass org/apache/maven/surefire/report/ReporterConfiguration
+instanceKlass org/apache/maven/surefire/testset/TestRequest
+instanceKlass org/apache/maven/surefire/testset/TestArtifactInfo
+instanceKlass org/apache/maven/surefire/util/RunOrder
+instanceKlass org/apache/maven/surefire/testset/DirectoryScannerParameters
+instanceKlass org/apache/maven/surefire/booter/TypeEncodedValue
+instanceKlass org/apache/maven/surefire/booter/BooterDeserializer
+instanceKlass org/apache/maven/surefire/booter/BooterConstants
+instanceKlass org/apache/maven/surefire/booter/PropertiesWrapper
+instanceKlass org/apache/maven/surefire/booter/SystemPropertyManager
+instanceKlass java/lang/Void
+instanceKlass java/lang/Class$MethodArray
+instanceKlass sun/launcher/LauncherHelper$FXHelper
+instanceKlass org/apache/maven/surefire/booter/ForkedBooter
+instanceKlass java/io/FilePermission$1
+instanceKlass sun/net/www/MessageHeader
+instanceKlass java/net/URLConnection
+instanceKlass java/security/PermissionCollection
+instanceKlass sun/nio/ByteBuffered
+instanceKlass sun/security/util/ManifestEntryVerifier
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$1
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$Constraint
+instanceKlass java/util/regex/Matcher
+instanceKlass java/util/regex/MatchResult
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$Constraints
+instanceKlass java/util/ArrayList$SubList$1
+instanceKlass java/util/ListIterator
+instanceKlass java/util/Properties$LineReader
+instanceKlass java/security/Security$1
+instanceKlass java/security/Security
+instanceKlass sun/security/util/AbstractAlgorithmConstraints$1
+instanceKlass java/util/regex/ASCII
+instanceKlass java/util/regex/Pattern$TreeInfo
+instanceKlass java/util/regex/Pattern$Node
+instanceKlass java/util/regex/Pattern
+instanceKlass sun/security/util/AlgorithmDecomposer
+instanceKlass sun/security/util/AbstractAlgorithmConstraints
+instanceKlass java/security/AlgorithmConstraints
+instanceKlass sun/security/util/SignatureFileVerifier
+instanceKlass java/lang/Package
+instanceKlass sun/misc/Resource
+instanceKlass sun/misc/ExtensionDependency
+instanceKlass sun/misc/JarIndex
+instanceKlass sun/misc/FileURLMapper
+instanceKlass sun/misc/URLClassPath$JarLoader$1
+instanceKlass sun/misc/URLClassPath$Loader
+instanceKlass sun/misc/URLClassPath$3
+instanceKlass sun/net/util/URLUtil
+instanceKlass java/net/URLClassLoader$1
+instanceKlass java/util/jar/JarVerifier$3
+instanceKlass java/security/CodeSigner
+instanceKlass java/util/jar/JarVerifier
+instanceKlass sun/misc/ASCIICaseInsensitiveComparator
+instanceKlass java/util/jar/Attributes$Name
+instanceKlass java/util/jar/Attributes
+instanceKlass sun/misc/IOUtils
+instanceKlass java/util/zip/ZStreamRef
+instanceKlass java/util/zip/Inflater
+instanceKlass java/util/zip/ZipEntry
+instanceKlass sun/nio/ch/DirectBuffer
+instanceKlass sun/misc/PerfCounter$CoreCounters
+instanceKlass sun/misc/Perf
+instanceKlass sun/misc/Perf$GetPerfAction
+instanceKlass sun/misc/PerfCounter
+instanceKlass java/util/zip/ZipCoder
+instanceKlass java/util/Deque
+instanceKlass java/util/Queue
+instanceKlass java/nio/charset/StandardCharsets
+instanceKlass java/util/jar/JavaUtilJarAccessImpl
+instanceKlass sun/misc/JavaUtilJarAccess
+instanceKlass java/util/zip/ZipFile$1
+instanceKlass sun/misc/JavaUtilZipFileAccess
+instanceKlass java/util/zip/ZipFile
+instanceKlass java/util/zip/ZipConstants
+instanceKlass java/lang/StringCoding$StringDecoder
+instanceKlass java/io/FileOutputStream$1
+instanceKlass java/lang/StringCoding$StringEncoder
+instanceKlass java/lang/ThreadLocal$ThreadLocalMap
+instanceKlass java/lang/StringCoding
+instanceKlass sun/usagetracker/UsageTrackerClient$3
+instanceKlass java/util/TreeMap$Entry
+instanceKlass java/lang/ProcessEnvironment$CheckedEntry
+instanceKlass java/util/HashMap$HashIterator
+instanceKlass java/lang/ProcessEnvironment$CheckedEntrySet$1
+instanceKlass java/util/NavigableMap
+instanceKlass java/util/SortedMap
+instanceKlass java/util/Collections$UnmodifiableMap
+instanceKlass java/lang/ProcessEnvironment$EntryComparator
+instanceKlass java/lang/ProcessEnvironment$NameComparator
+instanceKlass sun/usagetracker/UsageTrackerClient$2
+instanceKlass sun/usagetracker/UsageTrackerClient$4
+instanceKlass sun/usagetracker/UsageTrackerClient$1
+instanceKlass java/util/concurrent/atomic/AtomicBoolean
+instanceKlass sun/usagetracker/UsageTrackerClient
+instanceKlass sun/misc/PostVMInitHook
+instanceKlass java/lang/invoke/MethodHandleStatics$1
+instanceKlass java/lang/invoke/MethodHandleStatics
+instanceKlass java/lang/invoke/MemberName$Factory
+instanceKlass java/lang/ClassValue$Version
+instanceKlass java/lang/ClassValue$Identity
+instanceKlass java/lang/ClassValue
+instanceKlass java/lang/invoke/MethodHandleImpl$3
+instanceKlass java/lang/invoke/MethodHandleImpl$2
+instanceKlass java/util/function/Function
+instanceKlass java/lang/invoke/MethodHandleImpl$1
+instanceKlass java/lang/invoke/MethodHandleImpl
+instanceKlass java/lang/SystemClassLoaderAction
+instanceKlass sun/misc/Launcher$AppClassLoader$1
+instanceKlass sun/misc/URLClassPath
+instanceKlass java/security/Principal
+instanceKlass java/security/ProtectionDomain$Key
+instanceKlass java/security/ProtectionDomain$2
+instanceKlass sun/misc/JavaSecurityProtectionDomainAccess
+instanceKlass java/security/ProtectionDomain$JavaSecurityAccessImpl
+instanceKlass sun/misc/JavaSecurityAccess
+instanceKlass java/net/URLStreamHandler
+instanceKlass java/net/Parts
+instanceKlass java/util/BitSet
+instanceKlass sun/net/www/ParseUtil
+instanceKlass java/io/FileInputStream$1
+instanceKlass java/lang/CharacterData
+instanceKlass sun/util/locale/LocaleUtils
+instanceKlass java/util/Locale$LocaleKey
+instanceKlass sun/util/locale/BaseLocale$Key
+instanceKlass sun/util/locale/BaseLocale
+instanceKlass java/util/concurrent/ConcurrentHashMap$CollectionView
+instanceKlass java/util/concurrent/ConcurrentHashMap$CounterCell
+instanceKlass java/util/concurrent/ConcurrentHashMap$Node
+instanceKlass java/util/concurrent/locks/ReentrantLock
+instanceKlass java/util/concurrent/locks/Lock
+instanceKlass java/util/concurrent/ConcurrentMap
+instanceKlass sun/util/locale/LocaleObjectCache
+instanceKlass java/util/Locale
+instanceKlass java/lang/reflect/Array
+instanceKlass java/nio/charset/CoderResult$Cache
+instanceKlass java/nio/charset/CoderResult
+instanceKlass java/nio/charset/CharsetDecoder
+instanceKlass sun/nio/cs/ArrayDecoder
+instanceKlass java/io/Reader
+instanceKlass java/lang/Readable
+instanceKlass sun/misc/MetaIndex
+instanceKlass sun/misc/Launcher$ExtClassLoader$1
+instanceKlass java/util/StringTokenizer
+instanceKlass java/net/URLClassLoader$7
+instanceKlass sun/misc/JavaNetAccess
+instanceKlass java/lang/ClassLoader$ParallelLoaders
+instanceKlass sun/security/util/Debug
+instanceKlass sun/misc/Launcher$Factory
+instanceKlass java/net/URLStreamHandlerFactory
+instanceKlass java/lang/Compiler$1
+instanceKlass java/lang/Compiler
+instanceKlass java/lang/System$2
+instanceKlass sun/misc/JavaLangAccess
+instanceKlass sun/io/Win32ErrorMode
+instanceKlass sun/misc/OSEnvironment
+instanceKlass java/lang/Integer$IntegerCache
+instanceKlass sun/misc/NativeSignalHandler
+instanceKlass sun/misc/Signal
+instanceKlass java/lang/Terminator$1
+instanceKlass sun/misc/SignalHandler
+instanceKlass java/lang/Terminator
+instanceKlass java/lang/ClassLoader$NativeLibrary
+instanceKlass java/io/ExpiringCache$Entry
+instanceKlass java/lang/ClassLoader$3
+instanceKlass java/nio/file/Path
+instanceKlass java/nio/file/Watchable
+instanceKlass java/lang/Enum
+instanceKlass java/io/ExpiringCache
+instanceKlass java/io/FileSystem
+instanceKlass java/io/DefaultFileSystem
+instanceKlass java/nio/Bits$1
+instanceKlass sun/misc/JavaNioAccess
+instanceKlass java/nio/ByteOrder
+instanceKlass java/nio/Bits
+instanceKlass java/nio/charset/CodingErrorAction
+instanceKlass java/nio/charset/CharsetEncoder
+instanceKlass sun/nio/cs/ArrayEncoder
+instanceKlass sun/reflect/ReflectionFactory$1
+instanceKlass java/lang/Class$1
+instanceKlass sun/nio/cs/SingleByte
+instanceKlass sun/nio/cs/HistoricallyNamedCharset
+instanceKlass sun/security/action/GetPropertyAction
+instanceKlass java/lang/ThreadLocal
+instanceKlass java/nio/charset/spi/CharsetProvider
+instanceKlass java/nio/charset/Charset
+instanceKlass java/io/Writer
+instanceKlass java/util/Arrays
+instanceKlass sun/reflect/misc/ReflectUtil
+instanceKlass java/lang/reflect/ReflectAccess
+instanceKlass sun/reflect/LangReflectAccess
+instanceKlass java/lang/reflect/Modifier
+instanceKlass sun/reflect/annotation/AnnotationType
+instanceKlass java/lang/Class$AnnotationData
+instanceKlass sun/reflect/generics/repository/AbstractRepository
+instanceKlass java/lang/Class$Atomic
+instanceKlass java/lang/Class$ReflectionData
+instanceKlass java/lang/Class$3
+instanceKlass java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1
+instanceKlass java/security/PrivilegedExceptionAction
+instanceKlass java/util/concurrent/atomic/AtomicReferenceFieldUpdater
+instanceKlass java/io/OutputStream
+instanceKlass java/io/Flushable
+instanceKlass java/io/FileDescriptor$1
+instanceKlass sun/misc/JavaIOFileDescriptorAccess
+instanceKlass java/io/FileDescriptor
+instanceKlass sun/misc/Version
+instanceKlass java/lang/Runtime
+instanceKlass java/util/Hashtable$Enumerator
+instanceKlass java/util/Iterator
+instanceKlass java/util/Enumeration
+instanceKlass java/util/Objects
+instanceKlass java/util/Collections$SynchronizedCollection
+instanceKlass java/lang/Math
+instanceKlass java/util/Hashtable$Entry
+instanceKlass sun/misc/VM
+instanceKlass java/util/HashMap$Node
+instanceKlass java/util/Map$Entry
+instanceKlass sun/reflect/Reflection
+instanceKlass sun/misc/SharedSecrets
+instanceKlass java/lang/ref/Reference$1
+instanceKlass sun/misc/JavaLangRefAccess
+instanceKlass java/lang/ref/ReferenceQueue$Lock
+instanceKlass java/lang/ref/ReferenceQueue
+instanceKlass java/util/Collections$UnmodifiableCollection
+instanceKlass java/util/AbstractMap
+instanceKlass java/util/Set
+instanceKlass java/util/Collections
+instanceKlass java/lang/ref/Reference$Lock
+instanceKlass sun/reflect/ReflectionFactory
+instanceKlass java/util/AbstractCollection
+instanceKlass java/util/RandomAccess
+instanceKlass java/util/List
+instanceKlass java/util/Collection
+instanceKlass java/lang/Iterable
+instanceKlass java/security/cert/Certificate
+instanceKlass sun/reflect/ReflectionFactory$GetReflectionFactoryAction
+instanceKlass java/security/PrivilegedAction
+instanceKlass java/security/AccessController
+instanceKlass java/security/Permission
+instanceKlass java/security/Guard
+instanceKlass java/lang/String$CaseInsensitiveComparator
+instanceKlass java/util/Comparator
+instanceKlass java/io/ObjectStreamField
+instanceKlass java/lang/Number
+instanceKlass java/lang/Character
+instanceKlass java/lang/Boolean
+instanceKlass java/nio/Buffer
+instanceKlass java/lang/StackTraceElement
+instanceKlass java/security/CodeSource
+instanceKlass sun/misc/Launcher
+instanceKlass java/util/jar/Manifest
+instanceKlass java/net/URL
+instanceKlass java/io/File
+instanceKlass java/io/InputStream
+instanceKlass java/io/Closeable
+instanceKlass java/lang/AutoCloseable
+instanceKlass sun/misc/Unsafe
+instanceKlass java/lang/AbstractStringBuilder
+instanceKlass java/lang/Appendable
+instanceKlass java/lang/invoke/CallSite
+instanceKlass java/lang/invoke/MethodType
+instanceKlass java/lang/invoke/LambdaForm
+instanceKlass java/lang/invoke/MethodHandleNatives
+instanceKlass java/lang/invoke/MemberName
+instanceKlass java/lang/invoke/MethodHandle
+instanceKlass sun/reflect/CallerSensitive
+instanceKlass java/lang/annotation/Annotation
+instanceKlass sun/reflect/FieldAccessor
+instanceKlass sun/reflect/ConstantPool
+instanceKlass sun/reflect/ConstructorAccessor
+instanceKlass sun/reflect/MethodAccessor
+instanceKlass sun/reflect/MagicAccessorImpl
+instanceKlass java/lang/reflect/Parameter
+instanceKlass java/lang/reflect/Member
+instanceKlass java/lang/reflect/AccessibleObject
+instanceKlass java/util/Dictionary
+instanceKlass java/util/Map
+instanceKlass java/lang/ThreadGroup
+instanceKlass java/lang/Thread$UncaughtExceptionHandler
+instanceKlass java/lang/Thread
+instanceKlass java/lang/Runnable
+instanceKlass java/lang/ref/Reference
+instanceKlass java/security/AccessControlContext
+instanceKlass java/security/ProtectionDomain
+instanceKlass java/lang/SecurityManager
+instanceKlass java/lang/Throwable
+instanceKlass java/lang/System
+instanceKlass java/lang/ClassLoader
+instanceKlass java/lang/Cloneable
+instanceKlass java/lang/Class
+instanceKlass java/lang/reflect/Type
+instanceKlass java/lang/reflect/GenericDeclaration
+instanceKlass java/lang/reflect/AnnotatedElement
+instanceKlass java/lang/String
+instanceKlass java/lang/CharSequence
+instanceKlass java/lang/Comparable
+instanceKlass java/io/Serializable
+ciInstanceKlass java/lang/Object 1 1 78 3 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 100 7 7 7 7 7 1 1 1 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/io/Serializable 1 1 7 1 1 1 100 100 1
+ciInstanceKlass java/lang/String 1 1 540 3 3 3 3 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 7 7 100 100 100 7 7 100 100 100 100 100 100 100 100 100 7 100 7 7 100 7 100 100 7 100 7 100 100 7 7 7 7 100 7 7 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 1 1
+staticfield java/lang/String serialPersistentFields [Ljava/io/ObjectStreamField; 0 [Ljava/io/ObjectStreamField;
+staticfield java/lang/String CASE_INSENSITIVE_ORDER Ljava/util/Comparator; java/lang/String$CaseInsensitiveComparator
+ciInstanceKlass java/lang/Class 1 1 1190 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 5 0 8 8 8 8 8 7 7 100 100 100 100 7 7 100 7 100 7 7 7 7 100 7 7 100 7 100 100 100 7 100 100 100 100 100 7 100 7 7 100 100 100 100 7 7 7 100 100 7 7 100 100 7 7 100 100 100 7 7 100 100 7 7 100 100 7 7 7 7 7 7 7 7 7 7 7 100 100 7 7 7 7 100 7 100 7 7 100 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1
+staticfield java/lang/Class serialPersistentFields [Ljava/io/ObjectStreamField; 0 [Ljava/io/ObjectStreamField;
+ciInstanceKlass java/lang/Cloneable 1 1 7 1 1 1 100 100 1
+instanceKlass org/springframework/core/DecoratingClassLoader
+instanceKlass java/util/ResourceBundle$RBClassLoader
+instanceKlass sun/reflect/DelegatingClassLoader
+instanceKlass java/security/SecureClassLoader
+ciInstanceKlass java/lang/ClassLoader 1 1 842 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 7 7 7 100 7 100 7 100 100 7 7 7 7 100 7 100 100 100 100 7 7 100 100 7 100 7 7 100 100 100 100 7 100 100 7 7 100 7 7 100 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 1 1
+staticfield java/lang/ClassLoader nocerts [Ljava/security/cert/Certificate; 0 [Ljava/security/cert/Certificate;
+ciInstanceKlass java/lang/System 1 1 369 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 7 100 7 100 100 100 100 100 100 7 7 100 100 7 100 100 7 7 7 7 100 100 100 7 100 100 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+staticfield java/lang/System in Ljava/io/InputStream; java/io/BufferedInputStream
+staticfield java/lang/System out Ljava/io/PrintStream; org/apache/maven/surefire/report/ConsoleOutputCapture$ForwardingPrintStream
+staticfield java/lang/System err Ljava/io/PrintStream; org/apache/maven/surefire/report/ConsoleOutputCapture$ForwardingPrintStream
+instanceKlass org/junit/Test$None
+instanceKlass java/lang/Exception
+instanceKlass java/lang/Error
+ciInstanceKlass java/lang/Throwable 1 1 327 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 100 100 7 100 100 100 100 7 7 100 7 100 100 100 7 100 100 7 7 7 7 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 1 1 1 1 1
+staticfield java/lang/Throwable UNASSIGNED_STACK [Ljava/lang/StackTraceElement; 0 [Ljava/lang/StackTraceElement;
+staticfield java/lang/Throwable SUPPRESSED_SENTINEL Ljava/util/List; java/util/Collections$UnmodifiableRandomAccessList
+staticfield java/lang/Throwable EMPTY_THROWABLE_ARRAY [Ljava/lang/Throwable; 0 [Ljava/lang/Throwable;
+staticfield java/lang/Throwable $assertionsDisabled Z 1
+instanceKlass java/lang/AssertionError
+instanceKlass java/lang/VirtualMachineError
+instanceKlass java/lang/LinkageError
+instanceKlass java/lang/ThreadDeath
+ciInstanceKlass java/lang/Error 1 1 30 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 1 1 12 12 12 12 12 10 10 10 10 10 1
+ciInstanceKlass java/lang/ThreadDeath 0 0 18 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 10 1
+instanceKlass org/xml/sax/SAXException
+instanceKlass javax/xml/parsers/ParserConfigurationException
+instanceKlass org/junit/internal/runners/FailedBefore
+instanceKlass java/net/URISyntaxException
+instanceKlass java/sql/SQLException
+instanceKlass java/lang/CloneNotSupportedException
+instanceKlass java/beans/PropertyVetoException
+instanceKlass org/apache/log4j/config/PropertySetterException
+instanceKlass java/beans/IntrospectionException
+instanceKlass java/security/PrivilegedActionException
+instanceKlass org/junit/runner/manipulation/NoTestsRemainException
+instanceKlass org/junit/internal/runners/InitializationError
+instanceKlass org/libreplan/business/advance/exceptions/DuplicateAdvanceAssignmentForOrderElementException
+instanceKlass org/libreplan/business/advance/exceptions/DuplicateValueTrueReportGlobalAdvanceException
+instanceKlass org/libreplan/business/common/exceptions/InstanceException
+instanceKlass org/apache/maven/surefire/util/NestedCheckedException
+instanceKlass java/io/IOException
+instanceKlass java/lang/InterruptedException
+instanceKlass java/lang/ReflectiveOperationException
+instanceKlass java/lang/RuntimeException
+ciInstanceKlass java/lang/Exception 1 1 30 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 1 1 12 12 12 12 12 10 10 10 10 10 1
+instanceKlass com/sun/org/apache/xerces/internal/xni/XNIException
+instanceKlass org/junit/Assume$AssumptionViolatedException
+instanceKlass java/lang/IndexOutOfBoundsException
+instanceKlass java/util/MissingResourceException
+instanceKlass java/lang/SecurityException
+instanceKlass org/apache/commons/logging/LogConfigurationException
+instanceKlass org/junit/runner/notification/StoppedByUserException
+instanceKlass java/lang/UnsupportedOperationException
+instanceKlass org/springframework/core/NestedRuntimeException
+instanceKlass java/lang/reflect/UndeclaredThrowableException
+instanceKlass org/libreplan/business/common/exceptions/ValidationException
+instanceKlass org/apache/maven/surefire/util/NestedRuntimeException
+instanceKlass java/lang/IllegalStateException
+instanceKlass java/lang/IllegalArgumentException
+instanceKlass java/lang/ArithmeticException
+instanceKlass java/lang/NullPointerException
+instanceKlass java/lang/IllegalMonitorStateException
+instanceKlass java/lang/ArrayStoreException
+instanceKlass java/lang/ClassCastException
+ciInstanceKlass java/lang/RuntimeException 1 1 30 1 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 1 1 12 12 12 12 12 10 10 10 10 10 1
+ciInstanceKlass java/lang/SecurityManager 0 0 375 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/security/ProtectionDomain 1 1 278 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 100 100 100 100 100 100 100 100 100 7 7 100 7 7 100 7 7 7 100 100 100 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 1 1 1 1
+staticfield java/security/ProtectionDomain debug Lsun/security/util/Debug; null
+ciInstanceKlass java/security/AccessControlContext 1 1 305 8 8 8 8 8 8 8 8 8 8 8 8 8 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 100 100 100 100 7 100 100 7 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 1
+instanceKlass java/net/URLClassLoader
+ciInstanceKlass java/security/SecureClassLoader 1 1 130 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 100 7 100 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/security/SecureClassLoader debug Lsun/security/util/Debug; null
+instanceKlass java/lang/InstantiationException
+instanceKlass java/lang/NoSuchMethodException
+instanceKlass java/lang/IllegalAccessException
+instanceKlass java/lang/reflect/InvocationTargetException
+instanceKlass java/lang/ClassNotFoundException
+ciInstanceKlass java/lang/ReflectiveOperationException 1 1 27 1 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 1 12 12 12 12 10 10 10 10 1
+ciInstanceKlass java/lang/ClassNotFoundException 1 1 32 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 100 1 1 1 12 12 12 9 10 10 1
+instanceKlass java/lang/IncompatibleClassChangeError
+instanceKlass java/lang/BootstrapMethodError
+instanceKlass java/lang/NoClassDefFoundError
+ciInstanceKlass java/lang/LinkageError 1 1 24 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 1 12 12 12 10 10 10 1
+ciInstanceKlass java/lang/NoClassDefFoundError 0 0 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/ClassCastException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/ArrayStoreException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+instanceKlass java/lang/StackOverflowError
+instanceKlass java/lang/OutOfMemoryError
+ciInstanceKlass java/lang/VirtualMachineError 1 1 27 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 1 12 12 12 12 10 10 10 10 1
+ciInstanceKlass java/lang/OutOfMemoryError 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/StackOverflowError 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/IllegalMonitorStateException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+instanceKlass java/lang/ref/PhantomReference
+instanceKlass java/lang/ref/FinalReference
+instanceKlass java/lang/ref/WeakReference
+instanceKlass java/lang/ref/SoftReference
+ciInstanceKlass java/lang/ref/Reference 1 1 134 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 100 7 7 100 7 7 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1
+instanceKlass sun/util/locale/provider/LocaleResources$ResourceReference
+instanceKlass java/util/ResourceBundle$BundleReference
+instanceKlass sun/util/locale/LocaleObjectCache$CacheEntry
+ciInstanceKlass java/lang/ref/SoftReference 1 1 35 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 7 1 1 1 1 12 12 12 12 12 9 9 10 10 10 1
+instanceKlass java/util/ResourceBundle$LoaderReference
+instanceKlass java/beans/WeakIdentityMap$Entry
+instanceKlass java/lang/reflect/WeakCache$CacheValue
+instanceKlass java/lang/reflect/Proxy$Key1
+instanceKlass java/lang/reflect/WeakCache$CacheKey
+instanceKlass java/lang/ThreadLocal$ThreadLocalMap$Entry
+instanceKlass java/lang/ClassValue$Entry
+instanceKlass java/util/WeakHashMap$Entry
+ciInstanceKlass java/lang/ref/WeakReference 1 1 20 1 1 1 1 1 1 1 1 7 100 1 1 1 1 12 12 10 10 1
+instanceKlass java/lang/ref/Finalizer
+ciInstanceKlass java/lang/ref/FinalReference 1 1 16 1 1 1 1 1 1 1 100 7 1 1 1 12 10 1
+instanceKlass sun/misc/Cleaner
+ciInstanceKlass java/lang/ref/PhantomReference 1 1 19 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 12 10 1
+ciInstanceKlass sun/misc/Cleaner 1 1 74 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 11 1
+staticfield sun/misc/Cleaner dummyQueue Ljava/lang/ref/ReferenceQueue; java/lang/ref/ReferenceQueue
+ciInstanceKlass java/lang/ref/Finalizer 1 1 148 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 100 7 7 100 100 100 7 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1
+staticfield java/lang/ref/Finalizer lock Ljava/lang/Object; java/lang/Object
+instanceKlass org/springframework/context/support/AbstractApplicationContext$1
+instanceKlass org/apache/log4j/helpers/FileWatchdog
+instanceKlass java/lang/ref/Finalizer$FinalizerThread
+instanceKlass java/lang/ref/Reference$ReferenceHandler
+ciInstanceKlass java/lang/Thread 1 1 539 3 3 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 100 100 100 100 100 100 100 100 100 7 100 100 7 100 7 100 7 100 100 7 100 100 100 100 100 100 7 100 100 100 100 100 100 100 7 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 1 1 1 1 1
+staticfield java/lang/Thread EMPTY_STACK_TRACE [Ljava/lang/StackTraceElement; 0 [Ljava/lang/StackTraceElement;
+staticfield java/lang/Thread SUBCLASS_IMPLEMENTATION_PERMISSION Ljava/lang/RuntimePermission; java/lang/RuntimePermission
+ciInstanceKlass java/lang/ThreadGroup 1 1 268 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 7 100 100 7 7 100 100 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1
+ciInstanceKlass java/util/Map 1 1 132 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1
+instanceKlass java/util/Hashtable
+ciInstanceKlass java/util/Dictionary 1 1 31 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 1 1 1 1 1 1 12 10 1
+instanceKlass java/util/Properties
+ciInstanceKlass java/util/Hashtable 1 1 402 3 3 4 4 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 5 0 100 100 100 100 100 100 100 100 100 100 7 100 100 7 100 7 100 100 100 7 100 7 7 100 7 7 7 7 100 7 7 7 100 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1
+instanceKlass org/springframework/beans/factory/support/ManagedProperties
+ciInstanceKlass java/util/Properties 1 1 263 3 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 100 100 100 100 100 100 7 100 100 100 100 7 7 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1 1 1
+staticfield java/util/Properties hexDigit [C 16
+instanceKlass java/lang/reflect/Executable
+instanceKlass java/lang/reflect/Field
+ciInstanceKlass java/lang/reflect/AccessibleObject 1 1 144 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 100 100 7 7 100 7 100 7 7 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1
+staticfield java/lang/reflect/AccessibleObject ACCESS_PERMISSION Ljava/security/Permission; java/lang/reflect/ReflectPermission
+staticfield java/lang/reflect/AccessibleObject reflectionFactory Lsun/reflect/ReflectionFactory; sun/reflect/ReflectionFactory
+ciInstanceKlass java/lang/reflect/Field 1 1 362 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 7 7 100 100 100 100 100 100 100 7 7 7 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1
+ciInstanceKlass java/lang/reflect/Parameter 0 0 210 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1
+instanceKlass java/lang/reflect/Constructor
+instanceKlass java/lang/reflect/Method
+ciInstanceKlass java/lang/reflect/Executable 1 1 378 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 7 100 100 100 100 7 7 7 7 100 100 100 7 100 7 100 7 7 7 7 7 100 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1
+ciInstanceKlass java/lang/reflect/Method 1 1 346 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 100 100 7 100 7 100 7 100 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1
+ciInstanceKlass java/lang/reflect/Constructor 1 1 330 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 100 100 100 100 100 100 7 7 100 100 100 100 100 7 7 7 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1 1
+instanceKlass sun/reflect/FieldAccessorImpl
+instanceKlass sun/reflect/ConstructorAccessorImpl
+instanceKlass sun/reflect/MethodAccessorImpl
+ciInstanceKlass sun/reflect/MagicAccessorImpl 1 1 13 1 1 1 1 1 1 1 7 100 12 10 1
+instanceKlass sun/reflect/GeneratedMethodAccessor1
+instanceKlass sun/reflect/DelegatingMethodAccessorImpl
+instanceKlass sun/reflect/NativeMethodAccessorImpl
+ciInstanceKlass sun/reflect/MethodAccessorImpl 1 1 22 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 100 100 12 10 1
+instanceKlass sun/reflect/GeneratedConstructorAccessor5
+instanceKlass sun/reflect/GeneratedConstructorAccessor4
+instanceKlass sun/reflect/GeneratedConstructorAccessor3
+instanceKlass sun/reflect/GeneratedConstructorAccessor2
+instanceKlass sun/reflect/BootstrapConstructorAccessorImpl
+instanceKlass sun/reflect/GeneratedConstructorAccessor1
+instanceKlass sun/reflect/DelegatingConstructorAccessorImpl
+instanceKlass sun/reflect/NativeConstructorAccessorImpl
+ciInstanceKlass sun/reflect/ConstructorAccessorImpl 1 1 24 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 7 12 10 1
+ciInstanceKlass sun/reflect/DelegatingClassLoader 1 1 13 1 1 1 1 1 1 1 7 100 1 12 10
+ciInstanceKlass sun/reflect/ConstantPool 1 1 106 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+instanceKlass sun/reflect/UnsafeFieldAccessorImpl
+ciInstanceKlass sun/reflect/FieldAccessorImpl 1 1 56 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 12 10 1
+instanceKlass sun/reflect/UnsafeStaticFieldAccessorImpl
+ciInstanceKlass sun/reflect/UnsafeFieldAccessorImpl 1 1 229 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield sun/reflect/UnsafeFieldAccessorImpl unsafe Lsun/misc/Unsafe; sun/misc/Unsafe
+instanceKlass sun/reflect/UnsafeQualifiedStaticFieldAccessorImpl
+ciInstanceKlass sun/reflect/UnsafeStaticFieldAccessorImpl 1 1 38 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 1 1 1 1 12 12 12 12 12 9 9 10 10 10 1
+ciInstanceKlass sun/reflect/CallerSensitive 0 0 17 1 1 1 1 1 1 1 1 100 100 100 1 1 1 1 1
+instanceKlass java/lang/invoke/DirectMethodHandle
+ciInstanceKlass java/lang/invoke/MethodHandle 1 1 438 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 7 100 7 100 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1 1
+staticfield java/lang/invoke/MethodHandle FORM_OFFSET J 20
+staticfield java/lang/invoke/MethodHandle $assertionsDisabled Z 1
+ciInstanceKlass java/lang/invoke/DirectMethodHandle 0 0 692 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/lang/invoke/MemberName 1 1 642 3 3 3 3 3 3 3 3 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 100 100 100 100 100 100 7 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1
+staticfield java/lang/invoke/MemberName $assertionsDisabled Z 1
+ciInstanceKlass java/lang/invoke/MethodHandleNatives 1 1 427 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 7 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1
+staticfield java/lang/invoke/MethodHandleNatives COUNT_GWT Z 1
+staticfield java/lang/invoke/MethodHandleNatives $assertionsDisabled Z 1
+ciInstanceKlass java/lang/invoke/LambdaForm 0 0 967 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 8 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 1 1 1 1 1 1
+ciInstanceKlass java/lang/invoke/MethodType 0 0 591 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 5 0 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1 1
+ciInstanceKlass java/lang/BootstrapMethodError 0 0 38 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 1 1 12 12 12 12 12 10 10 10 10 10 1
+instanceKlass java/lang/invoke/VolatileCallSite
+instanceKlass java/lang/invoke/MutableCallSite
+instanceKlass java/lang/invoke/ConstantCallSite
+ciInstanceKlass java/lang/invoke/CallSite 0 0 311 8 8 8 8 8 8 8 8 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+ciInstanceKlass java/lang/invoke/ConstantCallSite 0 0 42 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 1 1 12 12 12 12 12 12 9 9 10 10 10 10 10 1
+ciInstanceKlass java/lang/invoke/MutableCallSite 0 0 57 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/lang/invoke/VolatileCallSite 0 0 33 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 12 12 12 12 12 12 10 10 10 10 10 10 1
+instanceKlass java/lang/StringBuilder
+instanceKlass java/lang/StringBuffer
+ciInstanceKlass java/lang/AbstractStringBuilder 1 1 318 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 100 100 100 100 100 7 7 7 100 7 100 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1
+ciInstanceKlass java/lang/StringBuffer 1 1 371 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 7 100 7 7 100 100 7 7 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1 1
+staticfield java/lang/StringBuffer serialPersistentFields [Ljava/io/ObjectStreamField; 3 [Ljava/io/ObjectStreamField;
+ciInstanceKlass java/lang/StringBuilder 1 1 326 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 7 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+ciInstanceKlass sun/misc/Unsafe 1 1 389 8 8 7 7 7 7 7 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 100 7 100 100 7 100 7 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield sun/misc/Unsafe theUnsafe Lsun/misc/Unsafe; sun/misc/Unsafe
+staticfield sun/misc/Unsafe ARRAY_BOOLEAN_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_BYTE_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_SHORT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_CHAR_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_INT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_LONG_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_FLOAT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_DOUBLE_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_OBJECT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_BOOLEAN_INDEX_SCALE I 1
+staticfield sun/misc/Unsafe ARRAY_BYTE_INDEX_SCALE I 1
+staticfield sun/misc/Unsafe ARRAY_SHORT_INDEX_SCALE I 2
+staticfield sun/misc/Unsafe ARRAY_CHAR_INDEX_SCALE I 2
+staticfield sun/misc/Unsafe ARRAY_INT_INDEX_SCALE I 4
+staticfield sun/misc/Unsafe ARRAY_LONG_INDEX_SCALE I 8
+staticfield sun/misc/Unsafe ARRAY_FLOAT_INDEX_SCALE I 4
+staticfield sun/misc/Unsafe ARRAY_DOUBLE_INDEX_SCALE I 8
+staticfield sun/misc/Unsafe ARRAY_OBJECT_INDEX_SCALE I 4
+staticfield sun/misc/Unsafe ADDRESS_SIZE I 8
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$RewindableInputStream
+instanceKlass java/util/zip/ZipFile$ZipFileInputStream
+instanceKlass java/io/FilterInputStream
+instanceKlass java/io/FileInputStream
+instanceKlass java/io/ByteArrayInputStream
+ciInstanceKlass java/io/InputStream 1 1 61 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 5 0 100 100 100 100 100 100 100 7 12 12 12 12 12 10 10 10 10 10 10 10 1
+ciInstanceKlass java/io/ByteArrayInputStream 1 1 62 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 100 100 100 7 1 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 1
+ciInstanceKlass java/io/File 1 1 578 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 7 100 7 100 100 7 100 100 100 100 100 100 100 7 100 100 100 100 100 7 100 100 100 100 7 7 7 100 100 100 100 7 100 100 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 1 1 1 1
+staticfield java/io/File fs Ljava/io/FileSystem; java/io/WinNTFileSystem
+staticfield java/io/File separatorChar C 92
+staticfield java/io/File separator Ljava/lang/String; "\"
+staticfield java/io/File pathSeparatorChar C 59
+staticfield java/io/File pathSeparator Ljava/lang/String; ";"
+staticfield java/io/File PATH_OFFSET J 16
+staticfield java/io/File PREFIX_LENGTH_OFFSET J 12
+staticfield java/io/File UNSAFE Lsun/misc/Unsafe; sun/misc/Unsafe
+staticfield java/io/File $assertionsDisabled Z 1
+instanceKlass org/apache/maven/surefire/booter/IsolatedClassLoader
+instanceKlass sun/misc/Launcher$ExtClassLoader
+instanceKlass sun/misc/Launcher$AppClassLoader
+ciInstanceKlass java/net/URLClassLoader 1 1 521 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 7 100 100 100 7 7 7 100 100 7 100 100 100 7 7 7 100 7 100 7 7 7 7 7 100 100 100 7 7 100 100 100 7 7 7 7 100 7 100 100 100 7 7 7 100 7 7 7 7 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11
+ciInstanceKlass java/net/URL 1 1 550 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 100 7 100 7 7 100 100 100 100 100 7 7 100 7 7 100 100 100 100 7 100 100 100 100 7 7 7 100 100 7 7 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+staticfield java/net/URL serialPersistentFields [Ljava/io/ObjectStreamField; 7 [Ljava/io/ObjectStreamField;
+ciInstanceKlass java/util/jar/Manifest 1 1 230 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 7 7 7 100 100 7 100 7 100 100 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 1 1
+ciInstanceKlass sun/misc/Launcher 1 1 218 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 100 100 100 100 100 100 100 100 7 100 7 100 7 7 100 7 7 100 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1
+ciInstanceKlass sun/misc/Launcher$AppClassLoader 1 1 201 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 7 7 100 7 100 7 7 100 100 7 100 7 100 7 100 7 7 7 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+staticfield sun/misc/Launcher$AppClassLoader $assertionsDisabled Z 1
+ciInstanceKlass sun/misc/Launcher$ExtClassLoader 1 1 217 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 7 7 7 100 100 7 7 100 7 100 100 100 7 7 7 7 7 7 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+ciInstanceKlass java/security/CodeSource 1 1 323 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 100 100 100 100 7 100 100 100 100 7 100 7 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1
+ciInstanceKlass java/lang/StackTraceElement 1 1 98 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 7 7 7 7 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 1
+instanceKlass java/nio/LongBuffer
+instanceKlass java/nio/CharBuffer
+instanceKlass java/nio/ByteBuffer
+ciInstanceKlass java/nio/Buffer 1 1 103 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 100 100 7 100 7 100 100 100 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/lang/Boolean 1 1 110 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 7 100 100 100 7 100 7 7 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/lang/Boolean TRUE Ljava/lang/Boolean; java/lang/Boolean
+staticfield java/lang/Boolean FALSE Ljava/lang/Boolean; java/lang/Boolean
+staticfield java/lang/Boolean TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Character 1 1 459 3 3 3 3 3 3 3 3 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 5 0 5 0 100 100 7 100 100 100 100 7 100 7 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1 1 1 1 1
+staticfield java/lang/Character TYPE Ljava/lang/Class; java/lang/Class
+staticfield java/lang/Character $assertionsDisabled Z 1
+instanceKlass java/math/BigDecimal
+instanceKlass java/util/concurrent/atomic/AtomicLong
+instanceKlass java/util/concurrent/atomic/AtomicInteger
+instanceKlass java/lang/Long
+instanceKlass java/lang/Integer
+instanceKlass java/lang/Short
+instanceKlass java/lang/Byte
+instanceKlass java/lang/Double
+instanceKlass java/lang/Float
+ciInstanceKlass java/lang/Number 1 1 34 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 7 12 12 10 10 1
+ciInstanceKlass java/lang/Float 1 1 169 3 3 3 4 4 4 4 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 4 4 5 0 7 100 100 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/lang/Float TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Double 1 1 223 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 5 0 5 0 5 0 5 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 7 100 7 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/lang/Double TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Byte 1 1 153 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 5 0 7 100 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Byte TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Short 1 1 159 3 3 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 5 0 7 100 100 7 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Short TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Integer 1 1 309 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 5 0 5 0 5 0 100 7 7 100 100 7 7 100 7 100 7 100 100 100 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Integer TYPE Ljava/lang/Class; java/lang/Class
+staticfield java/lang/Integer digits [C 36
+staticfield java/lang/Integer DigitTens [C 100
+staticfield java/lang/Integer DigitOnes [C 100
+staticfield java/lang/Integer sizeTable [I 10
+ciInstanceKlass java/lang/Long 1 1 356 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 100 100 7 100 100 7 7 7 7 100 7 100 100 100 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Long TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/NullPointerException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/ArithmeticException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/util/ArrayList 1 1 342 3 3 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 5 0 100 100 100 100 100 100 100 100 100 100 7 7 100 100 7 100 7 7 100 100 7 100 7 7 100 7 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 1 1 1 1 1
+staticfield java/util/ArrayList EMPTY_ELEMENTDATA [Ljava/lang/Object; 0 [Ljava/lang/Object;
+staticfield java/util/ArrayList DEFAULTCAPACITY_EMPTY_ELEMENTDATA [Ljava/lang/Object; 0 [Ljava/lang/Object;
+instanceKlass java/lang/ProcessEnvironment
+instanceKlass java/util/LinkedHashMap
+ciInstanceKlass java/util/HashMap 1 1 468 3 3 4 4 4 4 4 8 8 8 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 100 7 100 100 100 100 100 100 100 100 100 7 100 100 100 100 7 100 100 100 7 100 100 7 100 7 100 100 100 100 7 100 7 7 100 100 7 7 7 7 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1 1 1 1 1 1
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager$Property
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager$State
+instanceKlass com/sun/org/apache/xerces/internal/util/Status
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$NameMap
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$State
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+instanceKlass org/libreplan/business/common/entities/EntityNameEnum
+instanceKlass sun/util/locale/provider/LocaleProviderAdapter$Type
+instanceKlass java/util/Locale$Category
+instanceKlass com/sun/beans/util/Cache$Kind
+instanceKlass java/lang/Thread$State
+instanceKlass org/libreplan/business/orders/entities/SchedulingState$Type
+instanceKlass org/libreplan/business/resources/entities/ResourceEnum
+instanceKlass org/springframework/transaction/annotation/Propagation
+instanceKlass org/springframework/transaction/annotation/Isolation
+instanceKlass java/lang/annotation/RetentionPolicy
+instanceKlass sun/security/util/DisabledAlgorithmConstraints$Constraint$Operator
+instanceKlass sun/launcher/LauncherHelper
+instanceKlass java/io/File$PathStatus
+ciInstanceKlass java/lang/Enum 1 1 119 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 100 100 100 100 100 7 100 7 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+instanceKlass com/sun/org/apache/xerces/internal/impl/io/UTF8Reader
+instanceKlass sun/nio/cs/StreamDecoder
+instanceKlass java/io/InputStreamReader
+instanceKlass java/io/BufferedReader
+ciInstanceKlass java/io/Reader 1 1 85 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 5 0 100 100 100 7 100 100 100 7 100 100 100 1 1 1 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable 1 1 188 3 4 4 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 100 100 100 7 7 7 100 7 7 100 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable$Entry 1 1 59 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 7 7 7 1 1 1 1 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager 1 1 1286 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 100 7 100 100 7 7 100 7 7 7 7 100 100 7 7 7 100 100 7 7 100 100 100 7 100 7 7 7 7 7 7 7 100 100 7 100 7 7 100 100 100 7 100 100 7 100 100 100 100 7 100 100 100 100 7 100 100 100 7 7 100 7 100 100 100 100 100 100 100 7 100 7 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityManager RECOGNIZED_FEATURES [Ljava/lang/String; 6 [Ljava/lang/String;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityManager FEATURE_DEFAULTS [Ljava/lang/Boolean; 6 [Ljava/lang/Boolean;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityManager RECOGNIZED_PROPERTIES [Ljava/lang/String; 7 [Ljava/lang/String;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityManager PROPERTY_DEFAULTS [Ljava/lang/Object; 7 [Ljava/lang/Object;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityManager XMLEntity Ljava/lang/String; "[xml]"
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityManager DTDEntity Ljava/lang/String; "[dtd]"
+ciInstanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager 1 1 334 8 8 8 8 8 8 8 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 100 100 7 7 7 7 7 100 7 100 7 7 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager printedWarnings Ljava/util/concurrent/CopyOnWriteArrayList; java/util/concurrent/CopyOnWriteArrayList
+ciInstanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit 1 1 168 3 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 7 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 1
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit ENTITY_EXPANSION_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit MAX_OCCUR_NODE_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit ELEMENT_ATTRIBUTE_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit TOTAL_ENTITY_SIZE_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit GENERAL_ENTITY_SIZE_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit PARAMETER_ENTITY_SIZE_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit MAX_ELEMENT_DEPTH_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit MAX_NAME_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit ENTITY_REPLACEMENT_LIMIT Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit
+staticfield com/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit $VALUES [Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit; 9 [Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;
+ciInstanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner 1 1 644 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 100 100 7 7 7 7 100 7 100 100 100 100 7 7 7 7 7 7 7 100 7 7 7 100 100 7 7 100 100 7 100 100 7 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 1 1 1
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityScanner VALID_NAMES [Z 127
+staticfield com/sun/org/apache/xerces/internal/impl/XMLEntityScanner END_OF_DOCUMENT_ENTITY Ljava/io/EOFException; com/sun/org/apache/xerces/internal/impl/XMLEntityScanner$1
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner$1
+ciInstanceKlass java/io/EOFException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 12 12 10 10 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner$1 1 1 27 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 7 1 1 12 10 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/impl/XMLErrorReporter 1 1 265 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 100 7 7 100 100 7 100 100 100 7 100 7 100 7 100 7 7 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 1
+staticfield com/sun/org/apache/xerces/internal/impl/XMLErrorReporter RECOGNIZED_FEATURES [Ljava/lang/String; 1 [Ljava/lang/String;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLErrorReporter FEATURE_DEFAULTS [Ljava/lang/Boolean; 1 [Ljava/lang/Boolean;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLErrorReporter RECOGNIZED_PROPERTIES [Ljava/lang/String; 1 [Ljava/lang/String;
+staticfield com/sun/org/apache/xerces/internal/impl/XMLErrorReporter PROPERTY_DEFAULTS [Ljava/lang/Object; 1 [Ljava/lang/Object;
+ciInstanceKlass com/sun/xml/internal/stream/XMLBufferListener 1 0 10 1 1 1 1 1 1 100 100 1
+instanceKlass com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName
+ciInstanceKlass com/sun/org/apache/xerces/internal/xni/QName 1 1 95 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 100 100 100 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer 1 1 196 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 100 100 7 100 100 7 7 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1 1
+instanceKlass com/sun/xml/internal/stream/Entity$ScannedEntity
+ciInstanceKlass com/sun/xml/internal/stream/Entity 1 1 45 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 7 1 1 12 12 12 12 9 9 10 10 1 1 1 1
+ciInstanceKlass com/sun/xml/internal/stream/Entity$ScannedEntity 1 1 185 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 100 7 7 7 7 100 100 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+ciInstanceKlass com/sun/org/apache/xerces/internal/util/XMLChar 1 1 127 3 3 3 3 3 3 3 3 3 3 3 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 7 100 7 7 1 12 12 12 12 12 12 12 12 12 12 12 12 9 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield com/sun/org/apache/xerces/internal/util/XMLChar CHARS [B 65536
+ciInstanceKlass com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType 1 1 110 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 1 1
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType ATTRIBUTE Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType ATTRIBUTENAME Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType COMMENT Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType DOCTYPE Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType ELEMENTSTART Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType ELEMENTEND Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType ENTITY Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType NOTATION Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType PI Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType REFERENCE Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType
+staticfield com/sun/org/apache/xerces/internal/impl/XMLScanner$NameType $VALUES [Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType; 10 [Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;
+compile com/sun/org/apache/xerces/internal/impl/XMLEntityScanner scanQName (Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Z -1 4 inline 123 0 -1 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner scanQName (Lcom/sun/org/apache/xerces/internal/xni/QName;Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;)Z 1 42 com/sun/org/apache/xerces/internal/util/XMLChar isNameStart (I)Z 1 255 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2 11 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Ljava/lang/String;I)V 3 2 java/lang/Enum ordinal ()I 3 7 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (ILjava/lang/String;I)V 4 4 java/lang/Enum ordinal ()I 4 14 java/lang/Enum ordinal ()I 4 24 java/lang/Enum ordinal ()I 4 34 java/lang/Enum ordinal ()I 4 44 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 75 java/lang/Enum ordinal ()I 2 23 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 45 java/lang/Enum ordinal ()I 4 55 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 2 173 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 1 266 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkBeforeLoad (Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)I 1 356 com/sun/org/apache/xerces/internal/util/SymbolTable addSymbol ([CII)Ljava/lang/String; 2 7 com/sun/org/apache/xerces/internal/util/SymbolTable hash ([CII)I 1 384 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2 11 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Ljava/lang/String;I)V 3 2 java/lang/Enum ordinal ()I 3 7 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (ILjava/lang/String;I)V 4 4 java/lang/Enum ordinal ()I 4 14 java/lang/Enum ordinal ()I 4 24 java/lang/Enum ordinal ()I 4 34 java/lang/Enum ordinal ()I 4 44 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 75 java/lang/Enum ordinal ()I 2 23 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 45 java/lang/Enum ordinal ()I 4 55 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 2 173 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 1 401 com/sun/org/apache/xerces/internal/util/SymbolTable addSymbol ([CII)Ljava/lang/String; 2 7 com/sun/org/apache/xerces/internal/util/SymbolTable hash ([CII)I 1 429 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2 11 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Ljava/lang/String;I)V 3 2 java/lang/Enum ordinal ()I 3 7 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (ILjava/lang/String;I)V 4 4 java/lang/Enum ordinal ()I 4 14 java/lang/Enum ordinal ()I 4 24 java/lang/Enum ordinal ()I 4 34 java/lang/Enum ordinal ()I 4 44 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 75 java/lang/Enum ordinal ()I 2 23 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 45 java/lang/Enum ordinal ()I 4 55 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 2 173 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 1 449 com/sun/org/apache/xerces/internal/util/SymbolTable addSymbol ([CII)Ljava/lang/String; 2 7 com/sun/org/apache/xerces/internal/util/SymbolTable hash ([CII)I 1 472 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V 2 11 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Ljava/lang/String;I)V 3 2 java/lang/Enum ordinal ()I 3 7 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer addValue (ILjava/lang/String;I)V 4 4 java/lang/Enum ordinal ()I 4 14 java/lang/Enum ordinal ()I 4 24 java/lang/Enum ordinal ()I 4 34 java/lang/Enum ordinal ()I 4 44 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 75 java/lang/Enum ordinal ()I 2 23 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 45 java/lang/Enum ordinal ()I 4 55 java/lang/Enum ordinal ()I 4 65 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 2 173 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (Lcom/sun/org/apache/xerces/internal/utils/XMLSecurityManager$Limit;Lcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 3 2 java/lang/Enum ordinal ()I 3 6 com/sun/org/apache/xerces/internal/utils/XMLSecurityManager isOverLimit (ILcom/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer;)Z 4 15 java/lang/Enum ordinal ()I 4 25 java/lang/Enum ordinal ()I 4 35 java/lang/Enum ordinal ()I 4 73 com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer getTotalValue (I)I 1 483 com/sun/org/apache/xerces/internal/xni/QName setValues (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 1 495 com/sun/org/apache/xerces/internal/impl/XMLEntityScanner checkEntityLimit (Lcom/sun/org/apache/xerces/internal/impl/XMLScanner$NameType;Lcom/sun/xml/internal/stream/Entity$ScannedEntity;II)V

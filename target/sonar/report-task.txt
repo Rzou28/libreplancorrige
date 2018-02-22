@@ -1,0 +1,6 @@
+projectKey=org.libreplan:libreplan
+serverUrl=http://localhost:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://localhost:9000/dashboard/index/org.libreplan:libreplan
+ceTaskId=AWFRs7wzA_RfSt2MfgZD
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWFRs7wzA_RfSt2MfgZD
